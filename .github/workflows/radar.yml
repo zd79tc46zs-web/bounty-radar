@@ -1,0 +1,101 @@
+name: 挂机收益雷达
+
+# 每 3 小时自动跑一轮扫描，把新出现的高价值赏金写入报告并开 Issue 提醒。
+# 公开仓库的 GitHub Actions 免费，不消耗你的电脑资源 —— 这就是"挂机"。
+on:
+  schedule:
+    # GitHub 的 cron 是 UTC 时间。03/09/15/21 UTC = 北京时间 11/17/23/次日5点
+    - cron: '0 3,9,15,21 * * *'
+  workflow_dispatch:
+    inputs:
+      min_score:
+        description: '最低评分（低于此分不报告）'
+        required: false
+        default: '40'
+
+permissions:
+  contents: write   # 提交扫描报告
+  issues: write     # 开提醒 Issue
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 运行雷达扫描
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_DIR: reports
+        run: |
+          python3 radar/scan.py
+
+      - name: 归档报告
+        uses: actions/upload-artifact@v4
+        with:
+          name: bounty-report
+          path: reports/
+          retention-days: 30
+
+      - name: 提交报告到仓库
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          git diff --staged --quiet || git commit -m "chore: 更新赏金雷达报告 $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: 生成提醒 Issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MIN_SCORE: ${{ github.event.inputs.min_score || '40' }}
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess, datetime
+
+          MIN = float(os.environ.get("MIN_SCORE", "40"))
+          d = json.load(open("reports/latest.json", encoding="utf-8"))
+          pool = [b for b in d.get("pool", []) if b["analysis"]["score"] >= MIN]
+          if not pool:
+              print("本轮无达标目标，跳过 Issue 提醒")
+              raise SystemExit(0)
+
+          lines = ["# 赏金雷达提醒", "",
+                   f"扫描时间：{d['generated_at']}", "",
+                   f"本轮达标目标 {len(pool)} 条，按评分排序：", ""]
+          for b in pool[:15]:
+              a = b["analysis"]
+              tb = a.get("time_budget_min")
+              lines += [
+                  f"### [{b['title']}]({b['url']})",
+                  f"- 评分 **{a['score']}** ｜ ${a['amount'] or 0:.0f} ｜ "
+                  f"工时 {tb if tb else '?'} 分钟 ｜ `{b['repo']}`",
+                  f"- 自动适配度：{a.get('auto_fit')} ｜ 通道：{a['rail']}",
+                  f"- 判据：{'；'.join(a['reasons'][:4])}",
+                  ""]
+
+          # 用日期标记 Issue，避免每天重复开
+          tag = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d-%H")
+          title = f"[雷达] {tag} 发现 {len(pool)} 条达标赏金"
+          body = "\n".join(lines)
+
+          # 若同名 Issue 已存在则跳过
+          exists = subprocess.run(
+              ["gh", "issue", "list", "--state", "open",
+               "--search", f"in:title {tag}", "--json", "number"],
+              capture_output=True, text=True,
+              env={**os.environ, "GH_TOKEN": os.environ["GITHUB_TOKEN"]})
+          if exists.returncode == 0 and exists.stdout.strip() not in ("[]", ""):
+              print("同名 Issue 已存在，跳过")
+              raise SystemExit(0)
+
+          subprocess.run(["gh", "issue", "create", "--title", title, "--body", body],
+                         check=True)
+          print(f"已创建提醒 Issue")
+          PY
