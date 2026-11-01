@@ -22,6 +22,13 @@ REPO = "bounty-radar"
 API = f"https://api.github.com/repos/{OWNER}/{REPO}"
 TOKEN_FILE = ".token"
 
+# ── 权限补充说明（实测 403 根因）──
+# 上传 .github/workflows/*.yml 需要 "Workflows" repository permission (write)
+# 读取 actions/secrets/public-key 需要 "Secrets" repository permission (read)
+# 写入 secrets 需要 "Secrets" repository permission (write)
+# 缺少以上权限时 API 返回 403 "Resource not accessible by personal access token"
+
+
 # 跳过这些（本地文件，不该进仓库）
 SKIP_NAMES = {".DS_Store", ".token", ".env"}
 SKIP_DIRS = {".git", "__pycache__", "outbox", ".venv", "venv", ".idea", ".vscode"}
@@ -117,6 +124,10 @@ def upload(root, token):
             fail += 1
             msg = d.get("message", "") if isinstance(d, dict) else str(d)
             print(f"  ✗ {rel} → HTTP {st}: {msg[:120]}")
+            if st == 403 and ".github/workflows" in rel:
+                print("      → 需要在 token 上加 Workflows 权限 (Read and write)")
+                print("      → https://github.com/settings/personal-access-tokens → radar → 编辑")
+                print("      → 加完后重跑本脚本即可，只需补传这一个文件")
 
         time.sleep(0.25)  # 控制 API 调用频率
 
@@ -130,7 +141,11 @@ def configure_secret(token):
     print("\n配置 Actions 密钥 GITHUB_TOKEN…")
     st, d = request("GET", "/actions/secrets/public-key", token=token)
     if st != 200:
-        print(f"  ✗ 取公钥失败 HTTP {st}")
+        msg = d.get("message", "") if isinstance(d, dict) else str(d)
+        print(f"  ✗ 取公钥失败 HTTP {st}: {msg}")
+        if st == 403:
+            print("    → 需要在 token 上加 Secrets 权限 (Read and write)")
+            print("    → https://github.com/settings/personal-access-tokens → 点 radar → 编辑")
         return False
     pubkey = d.get("key", "")
     key_id = d.get("key_id", "")
