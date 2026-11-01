@@ -215,6 +215,8 @@ python3 radar/hunter.py --scan --limit 5
 | Issues | **Read and write** |
 | Pull requests | **Read and write** |
 | Actions | **Read and write** |
+| **Workflows** | **Read and write** |
+| **Secrets** | **Read and write** |
 | Metadata | Read-only（默认就行） |
 
 5. 滚到最下面点 **Generate token**
