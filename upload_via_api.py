@@ -136,55 +136,87 @@ def upload(root, token):
 
 
 def configure_secret(token):
-    """配置 Actions 密钥：取公钥 → openssl 加密 → PUT。"""
+    """
+    配置 Actions 密钥。
+
+    实测要点（2026-11-01 在本机验证）：
+      1. GitHub 的 public-key 返回的是 libsodium 公钥（32 字节裸 base64），
+         官方要求用 crypto_box_seal 加密，不是 RSA/OAEP。
+         参考：https://docs.github.com/en/rest/guides/encrypting-secrets-for-the-rest-api
+      2. macOS 自带 LibreSSL 3.3 不支持 X25519，无法用 openssl 加密。
+         改用 Node 的 libsodium-wrappers（npm i libsodium-wrappers）。
+      3. 密钥名不能以 GITHUB_ 开头（GitHub 保留前缀），会返回 422。
+    """
     import subprocess
-    print("\n配置 Actions 密钥 GITHUB_TOKEN…")
+    import shutil
+    import tempfile
+
+    print("\n配置 Actions 密钥 RADAR_TOKEN…")
     st, d = request("GET", "/actions/secrets/public-key", token=token)
     if st != 200:
         msg = d.get("message", "") if isinstance(d, dict) else str(d)
         print(f"  ✗ 取公钥失败 HTTP {st}: {msg}")
         if st == 403:
             print("    → 需要在 token 上加 Secrets 权限 (Read and write)")
-            print("    → https://github.com/settings/personal-access-tokens → 点 radar → 编辑")
+            print("    → https://github.com/settings/personal-access-tokens → radar → 编辑")
         return False
+
     pubkey = d.get("key", "")
     key_id = d.get("key_id", "")
     if not pubkey:
         print("  ✗ 公钥为空")
         return False
 
-    tmp = "/tmp/.secrets_payload"
-    with open(tmp, "w", encoding="utf-8") as f:
+    # 准备 libsodium 环境
+    workdir = tempfile.mkdtemp(prefix="libsodium_")
+    node_bin = shutil.which("node") or "node"
+    install = subprocess.run(
+        ["npm", "install", "--silent", "libsodium-wrappers"],
+        cwd=workdir, capture_output=True, text=True)
+    if install.returncode != 0:
+        print(f"  ✗ 安装 libsodium-wrappers 失败: {install.stderr.strip()[:200]}")
+        print("    → 可手动执行：npm install libsodium-wrappers")
+        shutil.rmtree(workdir, ignore_errors=True)
+        return False
+
+    enc_js = os.path.join(workdir, "enc.js")
+    with open(enc_js, "w", encoding="utf-8") as f:
+        f.write(
+            "const sodium=require('libsodium-wrappers');const fs=require('fs');"
+            "sodium.ready.then(()=>{const k=sodium.from_base64(process.argv[2],"
+            "sodium.base64_variants.ORIGINAL);"
+            "const s=sodium.from_string(fs.readFileSync(process.argv[3],'utf8'));"
+            "process.stdout.write(sodium.to_base64(sodium.crypto_box_seal(s,k),"
+            "sodium.base64_variants.ORIGINAL));});"
+        )
+
+    plain_file = os.path.join(workdir, "plain.txt")
+    with open(plain_file, "w", encoding="utf-8") as f:
         f.write(token)
 
-    # macOS 的 openssl 不支持 -outform DER 用于 pkeyutl，改用 -pkeyopt rsa_padding_mode:pkcs1
-    enc = subprocess.run(
-        ["openssl", "pkeyutl", "-encrypt", "-pubin", "-inkey", "/dev/stdin",
-         "-in", tmp, "-outform", "DER", "-pkeyopt", "rsa_padding_mode:pkcs1"],
-        input=pubkey, capture_output=True, text=False)
-    if enc.returncode != 0 or not enc.stdout:
-        # 回退：把公钥写成文件
-        pk = "/tmp/.pubkey.pem"
-        with open(pk, "w", encoding="utf-8") as f:
-            f.write(pubkey)
-        enc = subprocess.run(
-            ["openssl", "pkeyutl", "-encrypt", "-pubin", "-inkey", pk,
-             "-in", tmp, "-outform", "DER", "-pkeyopt", "rsa_padding_mode:pkcs1"],
-            capture_output=True)
-    os.remove(tmp)
+    proc = subprocess.run([node_bin, enc_js, pubkey, plain_file],
+                          capture_output=True, text=True)
+    os.remove(plain_file)  # 明文立即删除
+    encrypted = (proc.stdout or "").strip()
 
-    if not enc.stdout:
-        print("  ✗ 加密失败")
+    if not encrypted:
+        print(f"  ✗ 加密失败: {(proc.stderr or '')[:300]}")
+        shutil.rmtree(workdir, ignore_errors=True)
         return False
-    encrypted = base64.b64encode(enc.stdout).decode("ascii")
 
-    st, d = request("PUT", "/actions/secrets/GITHUB_TOKEN",
-                    {"encrypted_value": encrypted, "key_id": key_id}, token)
-    if st in (201, 204) or (st == 200 and not d.get("message")):
-        print("  ✓ 密钥已加密写入（明文不落盘于仓库）")
-        return True
-    print(f"  ✗ 写入失败 HTTP {st}: {str(d)[:200]}")
-    return False
+    # 密钥名不能以 GITHUB_ 开头
+    ok = False
+    for name in ("RADAR_TOKEN", "SCAN_TOKEN"):
+        st2, d2 = request("PUT", f"/actions/secrets/{name}",
+                          {"encrypted_value": encrypted, "key_id": key_id}, token)
+        if st2 in (201, 204) or (st2 == 200 and not d2):
+            print(f"  ✓ 密钥 {name} 已加密写入（明文不落盘）")
+            ok = True
+        else:
+            print(f"  ✗ {name} 写入失败 HTTP {st2}: {str(d2)[:150]}")
+
+    shutil.rmtree(workdir, ignore_errors=True)
+    return ok
 
 
 def main():
