@@ -1,0 +1,20 @@
+# 敏感文件：绝对不能提交到公开仓库
+.token
+.env
+*.key
+*.pem
+credentials.json
+
+# 系统与编辑器
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# 运行产物
+outbox/
+work/
+*.patch
