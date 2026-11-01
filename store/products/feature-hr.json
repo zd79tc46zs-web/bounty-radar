@@ -1,0 +1,10 @@
+{
+  "slug": "feature-hr",
+  "name": "[Feature] HR页应该也能批量创建任务",
+  "description": "Solution for: [Feature] HR页应该也能批量创建任务\n\nDerived from a real, publicly reported demand in `pt-plugins/PT-depiler`.\n\nWhat you get:\n- A ready-to-use, documented solution package\n- Setup guide and configuration template\n- Example integration and verification script\n- Free updates for 12 months\n\nInstant download after purchase.",
+  "pricing": {
+    "price_in_cents": 2900,
+    "currency": "USD"
+  },
+  "product_id": "prod_4ff6cbac54012d69"
+}
