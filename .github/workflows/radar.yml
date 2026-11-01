@@ -23,6 +23,10 @@ jobs:
     steps:
       - name: 检出代码
         uses: actions/checkout@v5
+        with:
+          # 必须完整历史：否则 git pull --rebase 会失败，
+          # 且 push 会被拒（non-fast-forward，exit code 1）
+          fetch-depth: 0
 
       - name: 安装 Python
         uses: actions/setup-python@v6
@@ -31,9 +35,9 @@ jobs:
 
       - name: 运行雷达扫描
         env:
-          # RADAR_TOKEN 是细粒度 PAT，配额 5000 次/小时；
-          # 未配置时回退到内置 GITHUB_TOKEN（1000 次/小时，公开仓库够用）
-          GITHUB_TOKEN: ${{ secrets.RADAR_TOKEN || secrets.GITHUB_TOKEN }}
+          # RADAR_TOKEN 是细粒度 PAT，配额 5000 次/小时。
+          # 注意：GitHub 禁止密钥名以 GITHUB_ 开头，所以不能命名为 GITHUB_TOKEN。
+          GITHUB_TOKEN: ${{ secrets.RADAR_TOKEN }}
           REPORT_DIR: reports
         run: |
           python3 radar/scan.py
@@ -46,16 +50,38 @@ jobs:
           retention-days: 30
 
       - name: 提交报告到仓库
+        env:
+          GIT_TOKEN: ${{ secrets.RADAR_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 认证：把 token 放进 extraheader，避免明文出现在 remote url / 日志里
+          git config http.https://github.com/.extraheader \
+            "AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GIT_TOKEN" | base64 -w0)"
+
           git add reports/
-          git diff --staged --quiet || git commit -m "chore: 更新赏金雷达报告 $(date -u +%Y-%m-%d)"
-          git push
+
+          if git diff --staged --quiet; then
+            echo "报告无变化，无需提交"
+            exit 0
+          fi
+
+          git commit -m "chore: 更新赏金雷达报告 $(date -u +%Y-%m-%d %H:%M)"
+
+          # 关键：远端 main 可能已被其他提交推进（手动上传文件等），
+          # 必须先 rebase 再 push，否则被拒报 exit code 1
+          git fetch origin main
+          git rebase origin/main || {
+            echo "rebase 冲突，回退并强制同步"
+            git rebase --abort || true
+            git reset --hard origin/main
+          }
+          git push origin HEAD:main
 
       - name: 生成提醒 Issue
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RADAR_TOKEN || secrets.GITHUB_TOKEN }}
           MIN_SCORE: ${{ github.event.inputs.min_score || '40' }}
         run: |
           python3 - <<'PY'
@@ -82,22 +108,26 @@ jobs:
                   f"- 判据：{'；'.join(a['reasons'][:4])}",
                   ""]
 
-          # 用日期标记 Issue，避免每天重复开
           tag = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d-%H")
           title = f"[雷达] {tag} 发现 {len(pool)} 条达标赏金"
           body = "\n".join(lines)
 
-          # 若同名 Issue 已存在则跳过
+          # 同一小时内已有提醒则跳过，避免刷屏
           exists = subprocess.run(
-              ["gh", "issue", "list", "--state", "open",
-               "--search", f"in:title {tag}", "--json", "number"],
+              ["gh", "issue", "list", "--state", "open", "--limit", "50",
+               "--json", "title"],
               capture_output=True, text=True,
               env={**os.environ, "GH_TOKEN": os.environ["GITHUB_TOKEN"]})
-          if exists.returncode == 0 and exists.stdout.strip() not in ("[]", ""):
-              print("同名 Issue 已存在，跳过")
-              raise SystemExit(0)
+          if exists.returncode == 0:
+              try:
+                  titles = [t.get("title", "") for t in json.loads(exists.stdout or "[]")]
+              except Exception:
+                  titles = []
+              if any(t.startswith(f"[雷达] {tag}") for t in titles):
+                  print("同一小时内已有提醒 Issue，跳过")
+                  raise SystemExit(0)
 
           subprocess.run(["gh", "issue", "create", "--title", title, "--body", body],
                          check=True)
-          print(f"已创建提醒 Issue")
+          print("已创建提醒 Issue")
           PY
