@@ -22,22 +22,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 安装 Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
       - name: 运行雷达扫描
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # RADAR_TOKEN 是细粒度 PAT，配额 5000 次/小时；
+          # 未配置时回退到内置 GITHUB_TOKEN（1000 次/小时，公开仓库够用）
+          GITHUB_TOKEN: ${{ secrets.RADAR_TOKEN || secrets.GITHUB_TOKEN }}
           REPORT_DIR: reports
         run: |
           python3 radar/scan.py
 
       - name: 归档报告
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: bounty-report
           path: reports/
