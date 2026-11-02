@@ -1,0 +1,9 @@
+{
+  "_说明": "改这个文件，然后运行 python3 deploy_site.py --publish 即可全站生效",
+  "brand_name": "EduForge AI",
+  "support_email": "support@example.com",
+  "creem_checkout_url": "https://buy.creem.io/你的产品ID",
+  "company_legal_name": "",
+  "applicable_law": "中华人民共和国法律",
+  "governing_court": "运营方所在地有管辖权的人民法院"
+}
