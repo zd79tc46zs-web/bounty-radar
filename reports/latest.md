@@ -1,9 +1,9 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-01T11:27:18+00:00
-- 扫描耗时：111.6 秒
-- GitHub 赏金候选：**0** 条
-- 真实付费赏金池：**44** 条
+- 生成时间：2026-11-02T05:01:43+00:00
+- 扫描耗时：134.9 秒
+- GitHub 赏金候选：**2** 条
+- 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**0** 条
 
@@ -11,19 +11,34 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-> 本轮未发现符合条件的高价值候选。
+### 1. [[BOUNTY] Suggestion #1301](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
+- **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
+- **大陆可收款**：✅ 是
+- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-10-30T20:38:20Z
+- 判断依据：未标注金额；仅 3 条评论；近期有 29 个真人合并PR，仓库真实运作；2 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
+
+### 2. [[BOUNTY] Suggestion #1298](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
+- **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
+- **大陆可收款**：✅ 是
+- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-10-30T20:38:20Z
+- 判断依据：未标注金额；仅 2 条评论；近期有 29 个真人合并PR，仓库真实运作；2 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
+
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
 > 这批来自实测确认**真实付过款**的仓库（Ubiquity/DevPool 生态）。
 > `Time: <N Minutes` 标签意味着单次自动运行即可完成并提交 PR，是挂机最优目标。
 
-### P1. [Callbacks - event handlers and hybrid plugins](https://github.com/ubiquity-os/ubiquity-os-kernel/issues/261)
+### P1. [Keep HTTP diagnostic Boolean parsing consistent for n](https://github.com/ubiquity/permit2-rpc-manager/issues/31)
 
-- 评分 **60.0/100** ｜ $300 ｜ `ubiquity-os/ubiquity-os-kernel`
-- 自动适配度：**中** ｜ 结算通道：`unknown`
+- 评分 **62.1/100** ｜ $75 ｜ `ubiquity/permit2-rpc-manager`
+- 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
-- 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
-- 判断依据：金额 $300；15 条评论，竞争激烈；近期有 48 个真人合并PR，仓库真实运作；3 天内有提交，项目活跃；需求描述详实；🤖 标注 24 小时内可完成
+- 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
+- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Preserve 502 for exchange transport failures](https://github.com/devpool-directory/devpool-directory/issues/6255)
 
@@ -31,7 +46,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 3 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P3. [Return 401 for rejected Passport exchange codes](https://github.com/devpool-directory/devpool-directory/issues/6253)
 
@@ -39,7 +54,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 3 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P4. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6239)
 
@@ -111,7 +126,7 @@
 - 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
-- 判断依据：金额 $300；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $300；仅 3 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P13. [Generalized "GitHub Webhook + Contributor Role -> Rewards" With Config v3](https://github.com/devpool-directory/devpool-directory/issues/6246)
 
