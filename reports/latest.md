@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-02T09:04:23+00:00
-- 扫描耗时：140.7 秒
-- GitHub 赏金候选：**2** 条
+- 生成时间：2026-11-02T13:05:08+00:00
+- 扫描耗时：140.4 秒
+- GitHub 赏金候选：**3** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,7 +11,15 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [[BOUNTY] Suggestion #1301](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 1. [[BOUNTY] Suggestion #1283](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
+- **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
+- **大陆可收款**：✅ 是
+- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-10-30T20:38:20Z
+- 判断依据：未标注金额；仅 2 条评论；近期有 29 个真人合并PR，仓库真实运作；2 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
+
+### 2. [[BOUNTY] Suggestion #1301](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
@@ -19,7 +27,7 @@
 - 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-10-30T20:38:20Z
 - 判断依据：未标注金额；仅 3 条评论；近期有 29 个真人合并PR，仓库真实运作；2 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
 
-### 2. [[BOUNTY] Suggestion #1298](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 3. [[BOUNTY] Suggestion #1298](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
@@ -165,6 +173,8 @@
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
+- Build a concise generated user-facing Woge documentation site — `christian-draeger/woge` (0 评论)
+  - https://github.com/christian-draeger/woge/issues/300
 - Specs: small drift after batch 5 (01 maintenance.messageKey, 03 sample code, 07  — `kjew2/herocat` (0 评论)
   - https://github.com/kjew2/herocat/issues/300
 - 🧪 Playtest fixes, test user U08 (Ash): 10 findings — `esoinila/SpaceSails` (0 评论)
@@ -187,8 +197,6 @@
   - https://github.com/Alexkkkkk/QUASAR/issues/300
 - research: agent-comms + pi-intercom prior-art mining — adopt/adapt/refuse invent — `nolnoch/grayboard` (0 评论)
   - https://github.com/nolnoch/grayboard/issues/118
-- docs(packaging): document standalone binary installation options and Briefcase e — `bdperkin/findfmt` (1 评论)
-  - https://github.com/bdperkin/findfmt/issues/300
 
 ---
 
