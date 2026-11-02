@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-11-02T00:22:07+00:00",
+  "duration_sec": 32.2,
+  "bounties": [],
+  "pool": [],
+  "opire": [
+    {
+      "title": "c1work",
+      "url": "https://github.com/rodrigompy/bugb/issues/1",
+      "repo": "rodrigompy/bugb",
+      "amount": 100.0,
+      "trying_users": 0,
+      "claimer_users": 0,
+      "languages": [],
+      "repo_info": {
+        "full_name": "rodrigompy/bugb",
+        "stars": 1,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2026-05-31T02:22:24Z",
+        "pushed_at": "2026-05-31T03:37:40Z",
+        "archived": true,
+        "watchers": 0,
+        "size_kb": 11,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 0,
+        "human_merged_prs": 0,
+        "external_merged_prs": 0,
+        "contributors": 1
+      },
+      "rail": "opire_crypto"
+    },
+    {
+      "title": "research implementation for Windows",
+      "url": "https://github.com/radumarias/rencfs/issues/3",
+      "repo": "radumarias/rencfs",
+      "amount": 42.0,
+      "trying_users": 0,
+      "claimer_users": 0,
+      "languages": [
+        "Rust"
+      ],
+      "repo_info": {
+        "full_name": "radumarias/rencfs",
+        "stars": 4,
+        "forks": 52,
+        "open_issues": 41,
+        "created_at": "2024-12-21T05:37:02Z",
+        "pushed_at": "2024-12-21T04:34:32Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 3097,
+        "license": "Apache-2.0",
+        "closed_bounties": null,
+        "merged_prs": 0,
+        "human_merged_prs": 0,
+        "external_merged_prs": 0,
+        "contributors": 17
+      },
+      "rail": "opire_crypto"
+    },
+    {
+      "title": "500 Server Error - Auto Solve hcapcha",
+      "url": "https://github.com/flowese/UdioWrapper/issues/7",
+      "repo": "flowese/UdioWrapper",
+      "amount": 20.0,
+      "trying_users": 37,
+      "claimer_users": 24,
+      "languages": [
+        "Python"
+      ],
+      "repo_info": {
+        "full_name": "flowese/UdioWrapper",
+        "stars": 183,
+        "forks": 78,
+        "open_issues": 36,
+        "created_at": "2024-04-12T16:10:59Z",
+        "pushed_at": "2024-07-22T17:47:47Z",
+        "archived": false,
+        "watchers": 5,
+        "size_kb": 2484,
+        "license": "MIT",
+        "closed_bounties": null,
+        "merged_prs": 0,
+        "human_merged_prs": 0,
+        "external_merged_prs": 0,
+        "contributors": 1
+      },
+      "rail": "opire_crypto"
+    }
+  ],
+  "signals": []
+}
