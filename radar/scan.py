@@ -16,6 +16,7 @@ import re
 import subprocess
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -134,15 +135,84 @@ def detect_time_budget(text):
     return val
 
 
+# ── 次级速率限制节流 ──
+# 实测（2026-11-02）：GitHub 搜索 API 有"次级速率限制"——
+# 即使配额充足（30/分钟、used 仅 5），连续快速请求也会随机返回 403。
+# 连打 8 次的实测结果：403 403 200 200 200 200 200 200（前两次被拒后自行恢复）。
+# 对策：搜索请求之间强制间隔，并缓存结果。
+_SEARCH_LAST_CALL = [0.0]
+_SEARCH_MIN_INTERVAL = 1.5   # 秒
+_SEARCH_CACHE = {}           # {query: items} 跨轮次持久化到 reports/.search_cache.json
+
+
+def _throttle_search():
+    """搜索请求间强制间隔，避开 GitHub 次级速率限制。"""
+    now = time.time()
+    wait = _SEARCH_LAST_CALL[0] + _SEARCH_MIN_INTERVAL - now
+    if wait > 0:
+        time.sleep(wait)
+    _SEARCH_LAST_CALL[0] = time.time()
+
+
 def gh_search(query, per_page=30, token=None):
-    """调用 GitHub Search API 搜索 issue。"""
-    q = urllib.parse.quote(query)
-    url = f"{GITHUB_API}/search/issues?q={q}&sort=created&order=desc&per_page={per_page}"
-    headers = {"Authorization": f"Bearer {token}"} if token else {}
-    status, data = http_json(url, headers)
-    if status != 200 or not isinstance(data, dict):
-        return []
-    return data.get("items", []) or []
+    """
+    调用 GitHub Search API 搜索 issue。
+
+    重要（2026-11-02 实测踩坑）：
+    GitHub 侧规则变更——搜索 issue 时 query **必须显式包含 'is:issue' 或
+    'is:pull-request'**，否则返回 HTTP 422：
+        {"message": "Query must include 'is:issue' or 'is:pull-request'"}
+
+    这个改动让原本能用的查询全部静默失败（422 时旧代码直接返回空列表，
+    表现为"扫到 0 条"，一度被误判为限流）。
+    因此这里统一兜底补上 is:issue，一处修改覆盖所有查询。
+
+    另外加了降级：若仍失败，用不带 sort 的形式重试一次。
+    """
+    def _search(q_raw, sort=True):
+        _throttle_search()
+        q = urllib.parse.quote(q_raw)
+        url = f"{GITHUB_API}/search/issues?q={q}&per_page={per_page}"
+        if sort:
+            url += "&sort=created&order=desc"
+        headers = {"Authorization": f"Bearer {token}"} if token else {}
+        status, data = http_json(url, headers)
+        if status != 200 or not isinstance(data, dict):
+            return None, status
+        return data.get("items", []) or [], status
+
+    # 统一补 is:issue
+    augmented = query if ("is:issue" in query or "is:pull-request" in query) \
+        else f"{query} is:issue"
+
+    items, status = _search(augmented, sort=True)
+    if items is None:
+        # 降级1：不带 sort 参数再试
+        items, status = _search(augmented, sort=False)
+    if items is None:
+        # 降级2：去掉 stars: 这类限定符（GitHub 偶尔对组合查询更严格）
+        simple = re.sub(r"stars:[><=]+\d+\s*", "", augmented)
+        items, status = _search(simple, sort=False)
+
+    if items is None:
+        # 403 为主：GitHub 次级速率限制（Actions runner 是共享 IP，更易触发）。
+        # 策略：退避重试 → 仍失败则回退到上一轮缓存，保证每轮报告都有内容。
+        if status == 403:
+            print(f"    [wait] 触发次级限速，退避 12 秒后重试…", flush=True)
+            time.sleep(12)
+            items, status = _search(augmented, sort=True)
+        if items is None:
+            cached = _SEARCH_CACHE.get(query)
+            if cached:
+                print(f"    [cache] 搜索失败 (HTTP {status})，使用上一轮缓存 "
+                      f"{len(cached)} 条: {query[:50]}", flush=True)
+                return cached
+            print(f"    [warn] 搜索失败 (HTTP {status}) 且无缓存: {query[:60]}", flush=True)
+            return []
+
+    # 成功则写入缓存，供下一轮兜底使用
+    _SEARCH_CACHE[query] = items
+    return items
 
 
 def repo_probe(owner, repo, token=None):
@@ -176,9 +246,10 @@ def repo_probe(owner, repo, token=None):
         })
 
     # 历史已关闭的赏金数（仅作辅助判据）
+    # 注意：搜索 issue 必须带 is:issue，否则 GitHub 返回 422
     st2, closed = http_json(
         f"{GITHUB_API}/search/issues?q="
-        + urllib.parse.quote(f"repo:{owner}/{repo} label:bounty is:closed")
+        + urllib.parse.quote(f"repo:{owner}/{repo} label:bounty is:closed is:issue")
         + "&per_page=1",
         headers,
     )
@@ -438,7 +509,7 @@ def collect_bounties(token=None, limit_repos=30):
             url = it.get("html_url", "")
             if url and url not in seen:
                 seen[url] = it
-        time.sleep(2)  # 尊重未认证搜索 API 的限速
+        # 节流已在 gh_search 内部统一处理
 
     # 探针顺序：先按"有明确金额标签/正文"的排前面，同时优先非 bot 农场嫌疑的仓库
     def amount_of(it):
@@ -446,23 +517,40 @@ def collect_bounties(token=None, limit_repos=30):
         return extract_amount(f"{it.get('title','')}\n{it.get('body') or ''}\n{labels}") or 0
 
     ordered = sorted(seen.values(), key=amount_of, reverse=True)
-    repo_cache = {}
 
-    results = []
+    # 先确定要探针的仓库（按金额排序，最多 limit_repos 个）
+    targets = []
+    picked = set()
     for it in ordered:
-        url = it.get("html_url", "")
-        m = re.match(r"https://github\.com/([^/]+)/([^/]+)/issues/(\d+)", url)
+        m = re.match(r"https://github\.com/([^/]+)/([^/]+)/issues/(\d+)", it.get("html_url", ""))
         if not m:
             continue
-        owner, repo, number = m.group(1), m.group(2), m.group(3)
-
-        key = f"{owner}/{repo}"
-        if key not in repo_cache:
-            if len(repo_cache) >= limit_repos:
+        key = f"{m.group(1)}/{m.group(2)}"
+        if key not in picked:
+            if len(picked) >= limit_repos:
                 continue
-            repo_cache[key] = repo_probe(owner, repo, token)
-            time.sleep(1)
-        info = repo_cache[key]
+            picked.add(key)
+        targets.append((it, m.group(1), m.group(2), m.group(3), key))
+
+    # 并发探针：单次 API 约 2 秒，串行 9 仓库×4 请求要 70 秒以上
+    repo_cache = {}
+    if targets:
+        keys = list(dict.fromkeys(t[4] for t in targets))
+        print(f"    [probe] 并发探针 {len(keys)} 个仓库…", flush=True)
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            futs = {ex.submit(repo_probe, k.split("/")[0], k.split("/")[1], token): k
+                    for k in keys}
+            for fut, k in futs.items():
+                try:
+                    repo_cache[k] = fut.result()
+                except Exception:
+                    repo_cache[k] = {}
+
+    results = []
+    for it, owner, repo, number, key in targets:
+        info = repo_cache.get(key)
+        if info is None:
+            continue
 
         sc = score_bounty(it, info)
         results.append({
@@ -528,7 +616,7 @@ def collect_signals(token=None):
             u = it.get("html_url", "")
             if u and u not in seen:
                 seen[u] = it
-        time.sleep(2)
+
     out = []
     for it in list(seen.values())[:30]:
         out.append({
@@ -550,12 +638,11 @@ def collect_pool_repos(token=None):
     真实付费赏金（943 条带标价 issue）。这类仓库同时带 "Time: <N Minutes" 标签，
     是全自动挂机的最优目标池。
     """
+    # 查询数量刻意精简：GitHub 搜索 API 限速是 30 次/分钟，
+    # 查询太多会让部分查询被 403 拒掉，反而漏数据。2 个查询已能覆盖主流标价。
     queries = [
-        'label:"Price: 300 USD" state:open no:assignee',
         'label:"Price: 75 USD" state:open no:assignee',
-        'label:"Price: 150 USD" state:open no:assignee',
-        'label:"Price: 600 USD" state:open no:assignee',
-        'label:"Price: 900 USD" state:open no:assignee',
+        'label:"Price: 300 USD" state:open no:assignee',
     ]
     seen = {}
     for q in queries:
@@ -563,27 +650,45 @@ def collect_pool_repos(token=None):
             u = it.get("html_url", "")
             if u and u not in seen:
                 seen[u] = it
-        time.sleep(2)
 
-    repo_cache = {}
-    out = []
+
+    # 先收集仓库列表，再并发探针
+    targets = []
+    picked = set()
     for it in seen.values():
-        url = it.get("html_url", "")
-        m = re.match(r"https://github\.com/([^/]+)/([^/]+)/issues/(\d+)", url)
+        m = re.match(r"https://github\.com/([^/]+)/([^/]+)/issues/(\d+)", it.get("html_url", ""))
         if not m:
             continue
-        owner, repo, number = m.group(1), m.group(2), m.group(3)
-        key = f"{owner}/{repo}"
-        if key not in repo_cache:
-            if len(repo_cache) >= 8:
+        key = f"{m.group(1)}/{m.group(2)}"
+        if key not in picked:
+            if len(picked) >= 8:
                 continue
-            repo_cache[key] = repo_probe(owner, repo, token)
-            time.sleep(1)
-        sc = score_bounty(it, repo_cache[key])
+            picked.add(key)
+        targets.append((it, m.group(1), m.group(2), m.group(3), key))
+
+    repo_cache = {}
+    if targets:
+        keys = list(dict.fromkeys(t[4] for t in targets))
+        print(f"    [probe] 并发探针 {len(keys)} 个仓库…", flush=True)
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            futs = {ex.submit(repo_probe, k.split("/")[0], k.split("/")[1], token): k
+                    for k in keys}
+            for fut, k in futs.items():
+                try:
+                    repo_cache[k] = fut.result()
+                except Exception:
+                    repo_cache[k] = {}
+
+    out = []
+    for it, owner, repo, number, key in targets:
+        info = repo_cache.get(key)
+        if info is None:
+            continue
+        sc = score_bounty(it, info)
         out.append({
             "number": number,
             "title": it.get("title"),
-            "url": url,
+            "url": it.get("html_url", ""),
             "repo": key,
             "repo_info": repo_cache[key],
             "labels": [l.get("name") for l in it.get("labels", [])],
@@ -680,6 +785,16 @@ def main():
     outdir = os.environ.get("REPORT_DIR", "reports")
     os.makedirs(outdir, exist_ok=True)
 
+    # 载入上一轮搜索缓存（供 403 限速时兜底）
+    cache_file = os.path.join(outdir, ".search_cache.json")
+    try:
+        with open(cache_file, encoding="utf-8") as f:
+            _SEARCH_CACHE.update(json.load(f))
+        if _SEARCH_CACHE:
+            print(f"[radar] 载入缓存 {len(_SEARCH_CACHE)} 条查询结果", flush=True)
+    except Exception:
+        pass
+
     print("[radar] 抓取 GitHub 赏金…", flush=True)
     bounties = collect_bounties(token)
     print(f"[radar] 命中 {len(bounties)} 条候选", flush=True)
@@ -717,6 +832,20 @@ def main():
         f.write(render_markdown(payload))
     with open(os.path.join(outdir, f"scan-{day}.json"), "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    # 保存本轮搜索缓存，供下一轮兜底
+    try:
+        slim = {k: [{"number": i.get("number"), "title": i.get("title"),
+                     "html_url": i.get("html_url"),
+                     "repository_url": i.get("repository_url"),
+                     "labels": i.get("labels"), "comments": i.get("comments"),
+                     "created_at": i.get("created_at"),
+                     "body": (i.get("body") or "")[:600]} for i in v]
+                 for k, v in _SEARCH_CACHE.items()}
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(slim, f, ensure_ascii=False)
+    except Exception as e:
+        print(f"[radar] 缓存保存失败: {e}", flush=True)
 
     print(f"[radar] 报告已写入 {outdir}/latest.md", flush=True)
     return 0
