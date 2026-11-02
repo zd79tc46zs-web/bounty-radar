@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T05:01:43+00:00",
-  "duration_sec": 134.9,
+  "generated_at": "2026-11-02T09:04:23+00:00",
+  "duration_sec": 140.7,
   "bounties": [
     {
       "number": "1383",
@@ -2038,7 +2038,7 @@
         "pushed_at": "2026-11-02T04:49:16Z",
         "archived": false,
         "watchers": 0,
-        "size_kb": 333,
+        "size_kb": 343,
         "license": null,
         "closed_bounties": null,
         "merged_prs": 18,
@@ -2391,5 +2391,237 @@
       "rail": "opire_crypto"
     }
   ],
-  "signals": []
+  "signals": [
+    {
+      "title": "Specs: small drift after batch 5 (01 maintenance.messageKey, 03 sample code, 07 opt-in events, two Env settings)",
+      "url": "https://github.com/kjew2/herocat/issues/300",
+      "repo": "kjew2/herocat",
+      "labels": [
+        "documentation",
+        "agent-found"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Gap\nSmall spec drift found in batch 5:\n\n1. **specs/01 section 8.1:** the maintenance object is written `{active, message, until}`, but 08 section 6.1 and the client/server code use `messageKey`. Fix 01.\n2. **specs/03 section 2.1 sample code:** it shows `Simulation(IContentDb, GameState, IEventSin"
+    },
+    {
+      "title": "🧪 Playtest fixes, test user U08 (Ash): 10 findings",
+      "url": "https://github.com/esoinila/SpaceSails/issues/1422",
+      "repo": "esoinila/SpaceSails",
+      "labels": [
+        "bug",
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "Confirmed findings from test user U08 (Ash): 7 medium, 3 low. Tick each when fixed.\r\n\r\n- [ ] **U08-F03** (MED) After a moon-ground death the successor wakes OUTSIDE the rustbucket's hull: the deck is black until you walk the captain through the void\r\n- [ ] **U08-F04** (MED) A staged ground death ope"
+    },
+    {
+      "title": "Add a docs site with MkDocs Material",
+      "url": "https://github.com/eyadstein/leaklens/issues/300",
+      "repo": "eyadstein/leaklens",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "help wanted",
+        "good first issue",
+        "difficulty: easy",
+        "batch-1"
+      ],
+      "comments": 0,
+      "body_excerpt": "Proposed task (batch 1).\n\nScope: Add a docs site with MkDocs Material\n\nDone when: the change is implemented, covered by tests where it applies, documented if it is user-facing, and CI passes.\n\nPlease comment to claim this issue before you start."
+    },
+    {
+      "title": "VDR driver table lists the wrong driver families, and a family-only NeoPRISM request cannot select the driver",
+      "url": "https://github.com/hyperledger-identus/docs/issues/300",
+      "repo": "hyperledger-identus/docs",
+      "labels": [
+        "bug",
+        "documentation",
+        "needs-triage"
+      ],
+      "comments": 1,
+      "body_excerpt": "## User impact\n\nThe VDR guide's driver table states a `Family` value for each blockchain driver, and its selection section tells readers that `drid`, `drf` and `drv` select the driver. For the NeoPRISM and PRISM Node drivers the table's families do not match what the pinned implementations emit, and"
+    },
+    {
+      "title": "docs: a cookbook artifact that keeps docs/ the source of truth for people and agents",
+      "url": "https://github.com/lmarqs/the-cook/issues/90",
+      "repo": "lmarqs/the-cook",
+      "labels": [
+        "documentation",
+        "enhancement"
+      ],
+      "comments": 36,
+      "body_excerpt": "# Design: the `docs` artifact, its layout and its evaluation\n\n## Intent\n\nA cookbook artifact, `io.github.lmarqs.cookbook:docs`, whose recipe `#seed` gives a repository a `docs/` tree that is\nthe single source of truth for people and coding agents: seven kinds of page and any a team declares, one glo"
+    },
+    {
+      "title": "[LAUNCH-7] Legal for Cloud: terms, privacy policy, DPA, subprocessors",
+      "url": "https://github.com/nip10/openvalens/issues/300",
+      "repo": "nip10/openvalens",
+      "labels": [
+        "documentation",
+        "priority/p0",
+        "launch",
+        "needs-owner"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Problem\nA paid service that stores health data needs legal documents before launch, and both stores require a privacy policy URL (Apple also checks it for HealthKit apps; Google Play for Health Connect). Health data is special-category data under GDPR Art. 9, so processing in Cloud needs explicit"
+    },
+    {
+      "title": "chore: CHANGELOG.md is stale — no release automation in place",
+      "url": "https://github.com/milliorn/landing-page/issues/300",
+      "repo": "milliorn/landing-page",
+      "labels": [
+        "documentation",
+        "chore"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Summary\n\n`CHANGELOG.md` is badly stale. Its last entry is `0.1.2 (2026-04-18)`, matching the current `package.json` version and the `v0.1.2` git tag — but **44 commits** have landed on `main` since then with nothing recorded, including real changes (`refactor(data): replace positional tuples with"
+    },
+    {
+      "title": "docs(daemon): tidy restructure doc comments",
+      "url": "https://github.com/TonyHeadband/fleet-manager/issues/300",
+      "repo": "TonyHeadband/fleet-manager",
+      "labels": [
+        "documentation",
+        "daemon"
+      ],
+      "comments": 0,
+      "body_excerpt": "Deferred from the re-review of the final fix wave of the Product › Release › Task restructure (merged and pushed to main; line refs are against `ebc4942`).\n\n**Where:** `crates/fleet-daemon/src/personas.rs:466` (the `remove_clones` doc comment, 142 columns) and `crates/fleet-daemon/src/store.rs:632` "
+    },
+    {
+      "title": "[Research] Round 3: what users love & hate across ~90 SSH, terminal & remote-desktop tools (2026-10)",
+      "url": "https://github.com/konraddzbik/termdesk/issues/148",
+      "repo": "konraddzbik/termdesk",
+      "labels": [
+        "documentation",
+        "roadmap",
+        "competitive",
+        "research-r3"
+      ],
+      "comments": 7,
+      "body_excerpt": "> Round-3 competitive research, 2026-10-24. Earlier rounds: #43–#69 (round 1, 2026-08-28) and #86–#104 (round 2, 2026-09-09). **This round asks what users actually love and hate**, not which features each product lists.\n\n## Executive summary\nSeven segment reviews covering about 90 products agree on "
+    },
+    {
+      "title": "[Tolk] Полный аудит контрактов по TON/Tolk документации",
+      "url": "https://github.com/Alexkkkkk/QUASAR/issues/300",
+      "repo": "Alexkkkkk/QUASAR",
+      "labels": [
+        "bug",
+        "documentation",
+        "ai-triaged",
+        "autopilot-fix",
+        "code"
+      ],
+      "comments": 9,
+      "body_excerpt": "## Цель\nПроверить все активные Tolk-контракты QUASAR и общие wire/storage records против официальной документации TON/Tolk и TEP-74/64/89, найти доказуемые расхождения и исправить подтверждённые проблемы.\n\n## Объём\n- QuasarMaster, QuasarWallet, QuasarDeFi, QuasarAdminTimelock.\n- QuasarCommon и Quasa"
+    },
+    {
+      "title": "research: agent-comms + pi-intercom prior-art mining — adopt/adapt/refuse inventory",
+      "url": "https://github.com/nolnoch/grayboard/issues/118",
+      "repo": "nolnoch/grayboard",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "> Research dive commissioned via #grayboard-dev (2026-10-21). Feeds: #110 (board hierarchy), #112 (comm matrix), #115 (triggers), #104 (identity). Purpose: a pick-apart inventory — mechanics worth **adopting**, **adapting**, or **refusing** — decided later, per item.\n\n# Prior-art report: `agent-comm"
+    },
+    {
+      "title": "docs(packaging): document standalone binary installation options and Briefcase evaluation trade-offs",
+      "url": "https://github.com/bdperkin/findfmt/issues/300",
+      "repo": "bdperkin/findfmt",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "subtask",
+        "area:packaging",
+        "area:docs",
+        "priority:medium",
+        "size:M"
+      ],
+      "comments": 1,
+      "body_excerpt": "### Overview\n\nTo ensure clear distribution architecture decisions, this issue documents the comparative trade-offs between [BeeWare Briefcase](https://briefcase.beeware.org/en/stable/) and alternative standalone packaging/distribution approaches for `findfmt`.\n\n---\n\n### Detailed Tasks\n\n- [ ] Author "
+    },
+    {
+      "title": "Backlog held with triggers — index of Linear MIL items not recreated individually",
+      "url": "https://github.com/milehimikey/em/issues/300",
+      "repo": "milehimikey/em",
+      "labels": [
+        "documentation",
+        "was-linear"
+      ],
+      "comments": 0,
+      "body_excerpt": "Index of the Linear MIL backlog items that were **not** recreated as individual GitHub issues when the tracker moved to GitHub on 2026-10-18. Each is trigger-gated or long-horizon; the Linear page stays readable and is the full record. When a trigger fires, open a GitHub issue with \"was MIL-nnn\" in "
+    },
+    {
+      "title": "Latest 15 Papers - October 18, 2026",
+      "url": "https://github.com/ever-xing/DailyArXiv/issues/300",
+      "repo": "ever-xing/DailyArXiv",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "**Please check the [Github](https://github.com/zezhishao/MTS_Daily_ArXiv) page for a better reading experience and more papers.**\n\n## Reinforcement Learning\n| **Title** | **Date** | **Comment** |\n| --- | --- | --- |\n| **[Value as Memory: Online Value-Guided Post-training for General Robot Policies]("
+    },
+    {
+      "title": "Positioning and name decision",
+      "url": "https://github.com/monstercameron/NextGenScriptingLanguage/issues/40",
+      "repo": "monstercameron/NextGenScriptingLanguage",
+      "labels": [
+        "documentation",
+        "enhancement"
+      ],
+      "comments": 1,
+      "body_excerpt": "## Problem\n\nThe README leads with a Unix-workflow pitch, while the most defensible differentiator is that scripts can be planned, approved, traced, resumed and repaired by machines. The names \"Execute\" and \"NextGenScriptingLanguage\" are not searchable (they collide with exec, kubectl exec, os/exec)."
+    },
+    {
+      "title": "Overlay setters: stop resending a stale cache; document that overlay settings reset at boot",
+      "url": "https://github.com/BluEye-Robotics/blueye.sdk/issues/300",
+      "repo": "BluEye-Robotics/blueye.sdk",
+      "labels": [
+        "bug",
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "**Describe the bug**\n\nEvery `Overlay.enable_*` / `set_*` reuses `_overlay_parametres`, refreshed only by getters, mutates one field and sends the whole struct. The drone applies every field, so each SDK change reverts overlay changes the Blueye app made since the SDK last read. `is_date_enabled()` r"
+    },
+    {
+      "title": "Latest 15 Papers - October 16, 2026",
+      "url": "https://github.com/Greenteagodie/DailyArXiv/issues/300",
+      "repo": "Greenteagodie/DailyArXiv",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "**Please check the [Github](https://github.com/Greenteagodie/DailyArXiv) page for a better reading experience and more papers.**\n\n## Heterogeneous Graph\n| **Title** | **Date** | **Comment** |\n| --- | --- | --- |\n| **[Money-Mule Detection as a Relational Learning Problem: A Study on the RBIH NFPC Dat"
+    },
+    {
+      "title": "Latest Papers - October 16, 2026",
+      "url": "https://github.com/LbsTempest/Daily-ArXiv-Subscription/issues/300",
+      "repo": "LbsTempest/Daily-ArXiv-Subscription",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "**Please check the [Github page](https://github.com/LbsTempest/Daily-ArXiv-Subscription) for a better reading experience and more papers.**\n\n## Speech Synthesis\n| **Title** | **Link** | **Date** | **Comment** |\n| --- | --- | --- | --- |\n| **[Noise-Aware Lombard Speech Synthesis via Flow-GRPO for Int"
+    },
+    {
+      "title": "Date the external tester's report",
+      "url": "https://github.com/ShimeraTeam/Shimera/issues/300",
+      "repo": "ShimeraTeam/Shimera",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": ""
+    },
+    {
+      "title": "design(security): approve structured AI Coach output contract",
+      "url": "https://github.com/HoesenBruce/TradeLens/issues/300",
+      "repo": "HoesenBruce/TradeLens",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Accepted planning source\n\n[Two-track roadmap](https://github.com/HoesenBruce/TradeLens/blob/10c3be793691d029cb4fb1d8fe2dd401635f604a/docs/architecture/phase1-security-roadmap.md) · [Split inventory](https://github.com/HoesenBruce/TradeLens/blob/10c3be793691d029cb4fb1d8fe2dd401635f604a/docs/archit"
+    }
+  ]
 }
