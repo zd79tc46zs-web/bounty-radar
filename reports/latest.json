@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T04:56:22+00:00",
-  "duration_sec": 134.4,
+  "generated_at": "2026-11-03T08:58:52+00:00",
+  "duration_sec": 139.5,
   "bounties": [
     {
       "number": "1385",
@@ -13,10 +13,10 @@
         "forks": 415,
         "open_issues": 123,
         "created_at": "2024-06-03T00:09:18Z",
-        "pushed_at": "2026-11-03T00:08:19Z",
+        "pushed_at": "2026-11-03T07:14:02Z",
         "archived": false,
         "watchers": 4,
-        "size_kb": 3690467,
+        "size_kb": 3690762,
         "license": "AGPL-3.0",
         "closed_bounties": null,
         "merged_prs": 26,
@@ -28,7 +28,7 @@
         "bounty"
       ],
       "created_at": "2026-11-02T10:19:50Z",
-      "updated_at": "2026-11-02T11:44:55Z",
+      "updated_at": "2026-11-03T07:41:34Z",
       "body_excerpt": "### About the Bounty\n\n## Original issue text:\n\n**Suggestion:**\nPlease fix botany on Moonstation. There's 4 lockers and 0 botany clothings vendors. As cool as quick access to mining area is, botany is constantly getting attacked by goliaths, basilisks and other nasties. There's no other map where goliath can hit you through the wall in botany or basilisk that breaks the window. Like.. make some NPC free zone around lower level of botany or replace windows with solid walls so they don't see botanists. Terrible, terrible map for botany.\n\n**Reason:**\n[BOUNTY] sure\n\n**Results:**\n22x <:In_help:10562",
       "analysis": {
         "score": 54.0,
@@ -60,10 +60,10 @@
         "forks": 415,
         "open_issues": 123,
         "created_at": "2024-06-03T00:09:18Z",
-        "pushed_at": "2026-11-03T00:08:19Z",
+        "pushed_at": "2026-11-03T07:14:02Z",
         "archived": false,
         "watchers": 4,
-        "size_kb": 3690467,
+        "size_kb": 3690762,
         "license": "AGPL-3.0",
         "closed_bounties": null,
         "merged_prs": 26,
@@ -107,10 +107,10 @@
         "forks": 415,
         "open_issues": 123,
         "created_at": "2024-06-03T00:09:18Z",
-        "pushed_at": "2026-11-03T00:08:19Z",
+        "pushed_at": "2026-11-03T07:14:02Z",
         "archived": false,
         "watchers": 4,
-        "size_kb": 3690467,
+        "size_kb": 3690762,
         "license": "AGPL-3.0",
         "closed_bounties": null,
         "merged_prs": 26,
@@ -2062,7 +2062,7 @@
         "time_budget_min": 60,
         "reasons": [
           "金额 $75",
-          "6 条评论，竞争中等",
+          "7 条评论，竞争中等",
           "近期有 20 个真人合并PR，仓库真实运作",
           "🚨 刷量/农场特征：零关注者、fork/star=22/1 异常",
           "0 天内有提交，项目活跃",
@@ -2351,8 +2351,106 @@
       }
     }
   ],
-  "opire": [],
+  "opire": [
+    {
+      "title": "c1work",
+      "url": "https://github.com/rodrigompy/bugb/issues/1",
+      "repo": "rodrigompy/bugb",
+      "amount": 100.0,
+      "trying_users": 0,
+      "claimer_users": 0,
+      "languages": [],
+      "repo_info": {
+        "full_name": "rodrigompy/bugb",
+        "stars": 1,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2026-05-31T02:22:24Z",
+        "pushed_at": "2026-05-31T03:37:40Z",
+        "archived": true,
+        "watchers": 0,
+        "size_kb": 11,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 0,
+        "human_merged_prs": 0,
+        "external_merged_prs": 0,
+        "contributors": 1
+      },
+      "rail": "opire_crypto"
+    },
+    {
+      "title": "research implementation for Windows",
+      "url": "https://github.com/radumarias/rencfs/issues/3",
+      "repo": "radumarias/rencfs",
+      "amount": 42.0,
+      "trying_users": 0,
+      "claimer_users": 0,
+      "languages": [
+        "Rust"
+      ],
+      "repo_info": {
+        "full_name": "radumarias/rencfs",
+        "stars": 4,
+        "forks": 52,
+        "open_issues": 41,
+        "created_at": "2024-12-21T05:37:02Z",
+        "pushed_at": "2024-12-21T04:34:32Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 3097,
+        "license": "Apache-2.0",
+        "closed_bounties": null,
+        "merged_prs": 0,
+        "human_merged_prs": 0,
+        "external_merged_prs": 0,
+        "contributors": 17
+      },
+      "rail": "opire_crypto"
+    },
+    {
+      "title": "500 Server Error - Auto Solve hcapcha",
+      "url": "https://github.com/flowese/UdioWrapper/issues/7",
+      "repo": "flowese/UdioWrapper",
+      "amount": 20.0,
+      "trying_users": 37,
+      "claimer_users": 24,
+      "languages": [
+        "Python"
+      ],
+      "repo_info": {
+        "full_name": "flowese/UdioWrapper",
+        "stars": 183,
+        "forks": 78,
+        "open_issues": 36,
+        "created_at": "2024-04-12T16:10:59Z",
+        "pushed_at": "2024-07-22T17:47:47Z",
+        "archived": false,
+        "watchers": 5,
+        "size_kb": 2484,
+        "license": "MIT",
+        "closed_bounties": null,
+        "merged_prs": 0,
+        "human_merged_prs": 0,
+        "external_merged_prs": 0,
+        "contributors": 1
+      },
+      "rail": "opire_crypto"
+    }
+  ],
   "signals": [
+    {
+      "title": "docs(diagrams): update architecture and runtime visuals for request lifecycle",
+      "url": "https://github.com/yeongseon/azure-app-service-practical-guide/issues/300",
+      "repo": "yeongseon/azure-app-service-practical-guide",
+      "labels": [
+        "documentation",
+        "priority:high",
+        "size: S"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Context\nOne executable child of #284 and migration epic #281. The merged #282 manifest is the scope authority (baseline `036376dff4e4c2e919470b51a1cb89ef708d88ea`); the current manifest records **2** allocated in-scope Mermaid occurrence(s). This is an S/M-size, independently reviewable documenta"
+    },
     {
       "title": "Build a concise generated user-facing Woge documentation site",
       "url": "https://github.com/christian-draeger/woge/issues/300",
@@ -2576,16 +2674,6 @@
       ],
       "comments": 0,
       "body_excerpt": "**Please check the [Github page](https://github.com/LbsTempest/Daily-ArXiv-Subscription) for a better reading experience and more papers.**\n\n## Speech Synthesis\n| **Title** | **Link** | **Date** | **Comment** |\n| --- | --- | --- | --- |\n| **[Noise-Aware Lombard Speech Synthesis via Flow-GRPO for Int"
-    },
-    {
-      "title": "Date the external tester's report",
-      "url": "https://github.com/ShimeraTeam/Shimera/issues/300",
-      "repo": "ShimeraTeam/Shimera",
-      "labels": [
-        "documentation"
-      ],
-      "comments": 0,
-      "body_excerpt": ""
     }
   ]
 }

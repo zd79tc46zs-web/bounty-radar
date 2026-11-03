@@ -1,10 +1,10 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-03T04:56:22+00:00
-- 扫描耗时：134.4 秒
+- 生成时间：2026-11-03T08:58:52+00:00
+- 扫描耗时：139.5 秒
 - GitHub 赏金候选：**3** 条
 - 真实付费赏金池：**47** 条
-- Opire 平台赏金：**0** 条
+- Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
 
 ---
@@ -16,7 +16,7 @@
 - **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
 - **大陆可收款**：✅ 是
-- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-03T00:08:19Z
+- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-03T07:14:02Z
 - 判断依据：未标注金额；仅 2 条评论；近期有 26 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 2. [[BOUNTY] Suggestion #1301](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
@@ -24,7 +24,7 @@
 - **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
 - **大陆可收款**：✅ 是
-- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-03T00:08:19Z
+- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-03T07:14:02Z
 - 判断依据：未标注金额；仅 3 条评论；近期有 26 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 3. [[BOUNTY] Suggestion #1298](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
@@ -32,7 +32,7 @@
 - **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
 - **大陆可收款**：✅ 是
-- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-03T00:08:19Z
+- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-03T07:14:02Z
 - 判断依据：未标注金额；仅 2 条评论；近期有 26 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
@@ -162,12 +162,19 @@
 
 ## 三、Opire 平台赏金
 
-> Opire 公开 API 本轮返回空。
+- **c1work** — 100.0 USD ｜ `rodrigompy/bugb` ｜ 已认领 0 人 ｜ 尝试中 0 人
+  - https://github.com/rodrigompy/bugb/issues/1
+- **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
+  - https://github.com/radumarias/rencfs/issues/3
+- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 24 人 ｜ 尝试中 37 人
+  - https://github.com/flowese/UdioWrapper/issues/7
 
 ## 四、需求信号（自建数字产品的选题来源）
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
+- docs(diagrams): update architecture and runtime visuals for request lifecycle — `yeongseon/azure-app-service-practical-guide` (0 评论)
+  - https://github.com/yeongseon/azure-app-service-practical-guide/issues/300
 - Build a concise generated user-facing Woge documentation site — `christian-draeger/woge` (0 评论)
   - https://github.com/christian-draeger/woge/issues/300
 - Specs: small drift after batch 5 (01 maintenance.messageKey, 03 sample code, 07  — `kjew2/herocat` (0 评论)
@@ -190,8 +197,6 @@
   - https://github.com/konraddzbik/termdesk/issues/148
 - [Tolk] Полный аудит контрактов по TON/Tolk документации — `Alexkkkkk/QUASAR` (9 评论)
   - https://github.com/Alexkkkkk/QUASAR/issues/300
-- research: agent-comms + pi-intercom prior-art mining — adopt/adapt/refuse invent — `nolnoch/grayboard` (0 评论)
-  - https://github.com/nolnoch/grayboard/issues/118
 
 ---
 
