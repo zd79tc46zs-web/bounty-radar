@@ -1,10 +1,10 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-03T01:00:02+00:00
-- 扫描耗时：132.3 秒
+- 生成时间：2026-11-03T04:56:22+00:00
+- 扫描耗时：134.4 秒
 - GitHub 赏金候选：**3** 条
 - 真实付费赏金池：**47** 条
-- Opire 平台赏金：**3** 条
+- Opire 平台赏金：**0** 条
 - 需求信号：**20** 条
 
 ---
@@ -162,12 +162,7 @@
 
 ## 三、Opire 平台赏金
 
-- **c1work** — 100.0 USD ｜ `rodrigompy/bugb` ｜ 已认领 0 人 ｜ 尝试中 0 人
-  - https://github.com/rodrigompy/bugb/issues/1
-- **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
-  - https://github.com/radumarias/rencfs/issues/3
-- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 24 人 ｜ 尝试中 37 人
-  - https://github.com/flowese/UdioWrapper/issues/7
+> Opire 公开 API 本轮返回空。
 
 ## 四、需求信号（自建数字产品的选题来源）
 
