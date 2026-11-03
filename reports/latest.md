@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-03T08:58:52+00:00
-- 扫描耗时：139.5 秒
-- GitHub 赏金候选：**3** 条
+- 生成时间：2026-11-03T13:00:31+00:00
+- 扫描耗时：130.8 秒
+- GitHub 赏金候选：**2** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,15 +11,7 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [[BOUNTY] Suggestion #1283](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
-- **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
-- **大陆可收款**：✅ 是
-- 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-03T07:14:02Z
-- 判断依据：未标注金额；仅 2 条评论；近期有 26 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
-
-### 2. [[BOUNTY] Suggestion #1301](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 1. [[BOUNTY] Suggestion #1301](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
@@ -27,7 +19,7 @@
 - 仓库信号：★64 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-03T07:14:02Z
 - 判断依据：未标注金额；仅 3 条评论；近期有 26 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
 
-### 3. [[BOUNTY] Suggestion #1298](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 2. [[BOUNTY] Suggestion #1298](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
