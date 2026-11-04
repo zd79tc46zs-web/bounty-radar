@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-03T20:48:59+00:00
-- 扫描耗时：121.0 秒
+- 生成时间：2026-11-04T01:01:18+00:00
+- 扫描耗时：131.0 秒
 - GitHub 赏金候选：**2** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -38,7 +38,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；2 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Preserve 502 for exchange transport failures](https://github.com/devpool-directory/devpool-directory/issues/6255)
 
@@ -94,7 +94,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P9. [Dismiss reverted-receipt toasts when the status clears](https://github.com/devpool-directory/devpool-directory/issues/6139)
 
