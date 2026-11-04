@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-04T13:02:17+00:00
-- 扫描耗时：122.1 秒
+- 生成时间：2026-11-04T16:58:12+00:00
+- 扫描耗时：136.4 秒
 - GitHub 赏金候选：**2** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -165,6 +165,12 @@
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
+- Documentation: parameter conventions that are easy to get wrong — `ALPSim/ALPS` (0 评论)
+  - https://github.com/ALPSim/ALPS/issues/300
+- Release hygiene: README status, CITATION.cff, Zenodo, ontospan pin and access no — `halbritter-lab/ontotator` (0 评论)
+  - https://github.com/halbritter-lab/ontotator/issues/300
+- docs(diagrams): migrate Functions dotnet tutorial extending-triggers diagrams —  — `yeongseon/azure-functions-practical-guide` (0 评论)
+  - https://github.com/yeongseon/azure-functions-practical-guide/issues/300
 - docs(diagrams): update architecture and runtime visuals for request lifecycle — `yeongseon/azure-app-service-practical-guide` (0 评论)
   - https://github.com/yeongseon/azure-app-service-practical-guide/issues/300
 - Build a concise generated user-facing Woge documentation site — `christian-draeger/woge` (0 评论)
@@ -179,16 +185,10 @@
   - https://github.com/hyperledger-identus/docs/issues/300
 - docs: a cookbook artifact that keeps docs/ the source of truth for people and ag — `lmarqs/the-cook` (36 评论)
   - https://github.com/lmarqs/the-cook/issues/90
-- [LAUNCH-7] Legal for Cloud: terms, privacy policy, DPA, subprocessors — `nip10/openvalens` (0 评论)
-  - https://github.com/nip10/openvalens/issues/300
 - chore: CHANGELOG.md is stale — no release automation in place — `milliorn/landing-page` (0 评论)
   - https://github.com/milliorn/landing-page/issues/300
 - docs(daemon): tidy restructure doc comments — `TonyHeadband/fleet-manager` (0 评论)
   - https://github.com/TonyHeadband/fleet-manager/issues/300
-- [Research] Round 3: what users love & hate across ~90 SSH, terminal & remote-des — `konraddzbik/termdesk` (7 评论)
-  - https://github.com/konraddzbik/termdesk/issues/148
-- [Tolk] Полный аудит контрактов по TON/Tolk документации — `Alexkkkkk/QUASAR` (9 评论)
-  - https://github.com/Alexkkkkk/QUASAR/issues/300
 
 ---
 
