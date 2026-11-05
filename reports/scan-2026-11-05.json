@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T13:08:41+00:00",
-  "duration_sec": 133.4,
+  "generated_at": "2026-11-05T17:14:08+00:00",
+  "duration_sec": 136.2,
   "bounties": [
     {
       "number": "1383",
@@ -9,7 +9,7 @@
       "repo": "SPLURT-Station/S.P.L.U.R.T-tg",
       "repo_info": {
         "full_name": "SPLURT-Station/S.P.L.U.R.T-tg",
-        "stars": 64,
+        "stars": 65,
         "forks": 415,
         "open_issues": 123,
         "created_at": "2024-06-03T00:09:18Z",
@@ -56,7 +56,7 @@
       "repo": "SPLURT-Station/S.P.L.U.R.T-tg",
       "repo_info": {
         "full_name": "SPLURT-Station/S.P.L.U.R.T-tg",
-        "stars": 64,
+        "stars": 65,
         "forks": 415,
         "open_issues": 123,
         "created_at": "2024-06-03T00:09:18Z",
@@ -1187,12 +1187,12 @@
         "full_name": "ubiquity/ai.ubq.fi",
         "stars": 0,
         "forks": 56,
-        "open_issues": 14,
+        "open_issues": 16,
         "created_at": "2025-12-14T11:39:18Z",
-        "pushed_at": "2026-11-05T13:06:47Z",
+        "pushed_at": "2026-11-05T16:09:29Z",
         "archived": false,
         "watchers": 0,
-        "size_kb": 82227,
+        "size_kb": 82426,
         "license": null,
         "closed_bounties": null,
         "merged_prs": 75,
@@ -1234,12 +1234,12 @@
         "full_name": "ubiquity/ai.ubq.fi",
         "stars": 0,
         "forks": 56,
-        "open_issues": 14,
+        "open_issues": 16,
         "created_at": "2025-12-14T11:39:18Z",
-        "pushed_at": "2026-11-05T13:06:47Z",
+        "pushed_at": "2026-11-05T16:09:29Z",
         "archived": false,
         "watchers": 0,
-        "size_kb": 82227,
+        "size_kb": 82426,
         "license": null,
         "closed_bounties": null,
         "merged_prs": 75,
@@ -1312,7 +1312,7 @@
           "金额 $75",
           "仅 1 条评论",
           "有 17 个真人合并PR",
-          "已 573 天无提交，项目停滞",
+          "已 574 天无提交，项目停滞",
           "需求描述详实",
           "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
           "🤖 标注 60 分钟内可完成，适合挂机"
@@ -2112,7 +2112,7 @@
           "金额 $300",
           "8 条评论，竞争中等",
           "有 7 个真人合并PR",
-          "已 201 天无提交，项目停滞",
+          "已 202 天无提交，项目停滞",
           "需求描述过于单薄",
           "🤖 标注 24 小时内可完成"
         ]
@@ -2158,7 +2158,7 @@
           "金额 $300",
           "7 条评论，竞争中等",
           "有 7 个真人合并PR",
-          "已 201 天无提交，项目停滞",
+          "已 202 天无提交，项目停滞",
           "需求描述过于单薄",
           "🤖 标注 24 小时内可完成"
         ]
@@ -2204,7 +2204,7 @@
           "金额 $300",
           "22 条评论，竞争激烈",
           "有 17 个真人合并PR",
-          "已 573 天无提交，项目停滞",
+          "已 574 天无提交，项目停滞",
           "需求描述详实",
           "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
           "🤖 标注 24 小时内可完成"
@@ -2297,7 +2297,7 @@
           "金额 $300",
           "86 条评论，大概率已被抢",
           "有 7 个真人合并PR",
-          "已 201 天无提交，项目停滞",
+          "已 202 天无提交，项目停滞",
           "需求描述过于单薄",
           "🤖 标注 24 小时内可完成"
         ]
@@ -2366,16 +2366,16 @@
       "url": "https://github.com/flowese/UdioWrapper/issues/7",
       "repo": "flowese/UdioWrapper",
       "amount": 20.0,
-      "trying_users": 38,
-      "claimer_users": 25,
+      "trying_users": 39,
+      "claimer_users": 26,
       "languages": [
         "Python"
       ],
       "repo_info": {
         "full_name": "flowese/UdioWrapper",
         "stars": 183,
-        "forks": 79,
-        "open_issues": 37,
+        "forks": 80,
+        "open_issues": 38,
         "created_at": "2024-04-12T16:10:59Z",
         "pushed_at": "2024-07-22T17:47:47Z",
         "archived": false,
