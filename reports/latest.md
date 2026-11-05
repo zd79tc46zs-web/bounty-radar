@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-04T20:54:47+00:00
-- 扫描耗时：132.7 秒
+- 生成时间：2026-11-05T01:02:20+00:00
+- 扫描耗时：137.1 秒
 - GitHub 赏金候选：**2** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -38,7 +38,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；2 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；3 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Preserve 502 for exchange transport failures](https://github.com/devpool-directory/devpool-directory/issues/6255)
 
@@ -165,12 +165,12 @@
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
+- observability: the certificate-renewal row says every deploy restores a deleted  — `yedeya/plinthos` (0 评论)
+  - https://github.com/yedeya/plinthos/issues/300
 - Documentation: parameter conventions that are easy to get wrong — `ALPSim/ALPS` (0 评论)
   - https://github.com/ALPSim/ALPS/issues/300
 - Release hygiene: README status, CITATION.cff, Zenodo, ontospan pin and access no — `halbritter-lab/ontotator` (0 评论)
   - https://github.com/halbritter-lab/ontotator/issues/300
-- docs(diagrams): migrate Functions dotnet tutorial extending-triggers diagrams —  — `yeongseon/azure-functions-practical-guide` (0 评论)
-  - https://github.com/yeongseon/azure-functions-practical-guide/issues/300
 - docs(diagrams): update architecture and runtime visuals for request lifecycle — `yeongseon/azure-app-service-practical-guide` (0 评论)
   - https://github.com/yeongseon/azure-app-service-practical-guide/issues/300
 - Build a concise generated user-facing Woge documentation site — `christian-draeger/woge` (0 评论)
@@ -179,6 +179,8 @@
   - https://github.com/kjew2/herocat/issues/300
 - 🧪 Playtest fixes, test user U08 (Ash): 10 findings — `esoinila/SpaceSails` (0 评论)
   - https://github.com/esoinila/SpaceSails/issues/1422
+- 【置顶·上下文交接】定时任务 Agent 开发存档：主线十章全卷完结（第伍至拾章六章连发实装）+ 下一轮待办池 — `ariefenv-hash/moyugang` (22 评论)
+  - https://github.com/ariefenv-hash/moyugang/issues/1
 - Add a docs site with MkDocs Material — `eyadstein/leaklens` (0 评论)
   - https://github.com/eyadstein/leaklens/issues/300
 - VDR driver table lists the wrong driver families, and a family-only NeoPRISM req — `hyperledger-identus/docs` (1 评论)
@@ -187,8 +189,6 @@
   - https://github.com/lmarqs/the-cook/issues/90
 - chore: CHANGELOG.md is stale — no release automation in place — `milliorn/landing-page` (0 评论)
   - https://github.com/milliorn/landing-page/issues/300
-- docs(daemon): tidy restructure doc comments — `TonyHeadband/fleet-manager` (0 评论)
-  - https://github.com/TonyHeadband/fleet-manager/issues/300
 
 ---
 
