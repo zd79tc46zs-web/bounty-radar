@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-05T20:51:52+00:00
-- 扫描耗时：131.1 秒
-- GitHub 赏金候选：**2** 条
+- 生成时间：2026-11-06T01:04:30+00:00
+- 扫描耗时：128.7 秒
+- GitHub 赏金候选：**3** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,7 +11,16 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [[BOUNTY] Suggestion #1301](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 1. [[Bounty $750] Fix sharded softmax on offset core grids](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：71.0/100 ｜ 仓库：`tenstorrent/tt-metal`
+- **金额**：$750
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★1745 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-06T01:01:22Z
+- 判断依据：金额 $750；5 条评论，竞争中等；近期有 70 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+
+### 2. [[BOUNTY] Suggestion #1301](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
@@ -19,7 +28,7 @@
 - 仓库信号：★65 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-05T09:38:22Z
 - 判断依据：未标注金额；仅 3 条评论；近期有 25 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
 
-### 2. [[BOUNTY] Suggestion #1298](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 3. [[BOUNTY] Suggestion #1298](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
@@ -38,7 +47,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；3 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；4 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Preserve 502 for exchange transport failures](https://github.com/devpool-directory/devpool-directory/issues/6255)
 
