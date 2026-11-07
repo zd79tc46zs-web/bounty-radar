@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-07T05:51:27+00:00
-- 扫描耗时：128.0 秒
+- 生成时间：2026-11-07T14:53:06+00:00
+- 扫描耗时：127.1 秒
 - GitHub 赏金候选：**8** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -11,77 +11,77 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [[BOUNTY: 15 RTC] Python SDK CLI has zero tests — add a Click CliRunner suite for every command (wallet/node/epoch/miners/attest)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 1. [[BOUNTY: 35 RTC] Vintage miner port: Motorola 68K — Amiga, Atari ST/TT/Falcon or classic 68K Mac on its native OS, with real-hardware proof](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：63.4/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
+- **可信度评分**：58.3/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
+- **金额**：$35
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
+- 判断依据：金额 $35；仅 2 条评论；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+
+### 2. [[BOUNTY: 35 RTC] Vintage miner port: SPARC — SPARCstation / UltraSPARC on SunOS, Solaris or NetBSD, with real-hardware proof](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：58.3/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
+- **金额**：$35
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
+- 判断依据：金额 $35；仅 2 条评论；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+
+### 3. [[BOUNTY: 15 RTC] Python SDK CLI has zero tests — add a Click CliRunner suite for every command (wallet/node/epoch/miners/attest)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：53.4/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
 - **金额**：$15
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $15；仅 3 条评论；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
-
-### 2. [[BOUNTY: 35 RTC] Vintage miner port: Motorola 68K — Amiga, Atari ST/TT/Falcon or classic 68K Mac on its native OS, with real-hardware proof](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：62.3/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
-- **金额**：$35
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $35；零评论，竞品少；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
-
-### 3. [[BOUNTY: 35 RTC] Vintage miner port: SPARC — SPARCstation / UltraSPARC on SunOS, Solaris or NetBSD, with real-hardware proof](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：62.3/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
-- **金额**：$35
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $35；零评论，竞品少；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $15；6 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 4. [[BOUNTY: 5 RTC] docs: reconcile the two miner config paths (/opt/rustchain-miner vs ~/.rustchain) across WALLET_SETUP.md, INSTALL.md and the installers (Rustchain#8407)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：61.1/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
+- **可信度评分**：51.1/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
 - **金额**：$5
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $5；仅 2 条评论；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $5；6 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 5. [[BOUNTY: 20 RTC] Catalog provider agent: list real work on the node /catalog, fulfil 2 paid orders from other agents end-to-end](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 5. [[BOUNTY: 30 RTC] Vintage miner port: MIPS — SGI IRIX (R4000–R16000) or DECstation Ultrix on the original hardware, with real-hardware proof](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：60.3/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
-- **金额**：$20
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $20；零评论，竞品少；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
-
-### 6. [[BOUNTY: 30 RTC] Vintage miner port: MIPS — SGI IRIX (R4000–R16000) or DECstation Ultrix on the original hardware, with real-hardware proof](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：57.7/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
+- **可信度评分**：47.7/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
 - **金额**：$30
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $30；仅 1 条评论；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $30；4 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
-### 7. [[BOUNTY: 25 RTC] Node liveness checks must validate the /health BODY, not just HTTP 200 — one shared probe for all five monitors](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 6. [[BOUNTY: 25 RTC] Node liveness checks must validate the /health BODY, not just HTTP 200 — one shared probe for all five monitors](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：57.0/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
+- **可信度评分**：47.0/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
 - **金额**：$25
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $25；仅 3 条评论；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $25；7 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
-### 8. [[BOUNTY: 20 RTC] Spend RTC from the SDK: `rustchain services list|buy|use` against BoTTube /api/rtc/* (with one real 3-RTC purchase as proof)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 7. [[BOUNTY: 20 RTC] Catalog provider agent: list real work on the node /catalog, fulfil 2 paid orders from other agents end-to-end](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：56.3/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
+- **可信度评分**：46.3/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
 - **金额**：$20
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $20；仅 3 条评论；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $20；7 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+
+### 8. [[BOUNTY: 20 RTC] Spend RTC from the SDK: `rustchain services list|buy|use` against BoTTube /api/rtc/* (with one real 3-RTC purchase as proof)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：46.3/100 ｜ 仓库：`Scottcjn/rustchain-bounties`
+- **金额**：$20
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
+- 判断依据：金额 $20；8 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
@@ -214,7 +214,7 @@
   - https://github.com/rodrigompy/bugb/issues/1
 - **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
   - https://github.com/radumarias/rencfs/issues/3
-- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 27 人 ｜ 尝试中 40 人
+- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 28 人 ｜ 尝试中 41 人
   - https://github.com/flowese/UdioWrapper/issues/7
 
 ## 四、需求信号（自建数字产品的选题来源）
