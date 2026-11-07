@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-07T14:53:06+00:00
-- 扫描耗时：127.1 秒
+- 生成时间：2026-11-07T20:11:49+00:00
+- 扫描耗时：129.1 秒
 - GitHub 赏金候选：**8** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -36,7 +36,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $15；6 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $15；8 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 4. [[BOUNTY: 5 RTC] docs: reconcile the two miner config paths (/opt/rustchain-miner vs ~/.rustchain) across WALLET_SETUP.md, INSTALL.md and the installers (Rustchain#8407)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
