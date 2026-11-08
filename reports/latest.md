@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-07T23:56:41+00:00
-- 扫描耗时：129.5 秒
+- 生成时间：2026-11-08T05:53:18+00:00
+- 扫描耗时：129.3 秒
 - GitHub 赏金候选：**8** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -18,7 +18,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $35；仅 2 条评论；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $35；仅 2 条评论；有 10 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 2. [[BOUNTY: 35 RTC] Vintage miner port: SPARC — SPARCstation / UltraSPARC on SunOS, Solaris or NetBSD, with real-hardware proof](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
@@ -27,7 +27,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $35；仅 2 条评论；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $35；仅 2 条评论；有 10 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 3. [[BOUNTY: 15 RTC] Python SDK CLI has zero tests — add a Click CliRunner suite for every command (wallet/node/epoch/miners/attest)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
@@ -36,7 +36,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $15；8 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $15；9 条评论，竞争中等；有 10 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 4. [[BOUNTY: 5 RTC] docs: reconcile the two miner config paths (/opt/rustchain-miner vs ~/.rustchain) across WALLET_SETUP.md, INSTALL.md and the installers (Rustchain#8407)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
@@ -45,7 +45,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $5；6 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $5；9 条评论，竞争中等；有 10 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 5. [[BOUNTY: 30 RTC] Vintage miner port: MIPS — SGI IRIX (R4000–R16000) or DECstation Ultrix on the original hardware, with real-hardware proof](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
@@ -54,7 +54,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $30；4 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $30；4 条评论，竞争中等；有 10 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 6. [[BOUNTY: 25 RTC] Node liveness checks must validate the /health BODY, not just HTTP 200 — one shared probe for all five monitors](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
@@ -63,7 +63,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $25；7 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $25；8 条评论，竞争中等；有 10 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 7. [[BOUNTY: 20 RTC] Catalog provider agent: list real work on the node /catalog, fulfil 2 paid orders from other agents end-to-end](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
@@ -72,7 +72,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $20；7 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $20；8 条评论，竞争中等；有 10 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 8. [[BOUNTY: 20 RTC] Spend RTC from the SDK: `rustchain services list|buy|use` against BoTTube /api/rtc/* (with one real 3-RTC purchase as proof)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
@@ -81,7 +81,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★288 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-07T02:26:41Z
-- 判断依据：金额 $20；8 条评论，竞争中等；有 10 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $20；8 条评论，竞争中等；有 10 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
@@ -94,7 +94,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；6 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Preserve 502 for exchange transport failures](https://github.com/devpool-directory/devpool-directory/issues/6255)
 
