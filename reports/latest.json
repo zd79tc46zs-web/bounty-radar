@@ -1,412 +1,7 @@
 {
-  "generated_at": "2026-11-08T05:53:18+00:00",
-  "duration_sec": 129.3,
-  "bounties": [
-    {
-      "number": "17186",
-      "title": "[BOUNTY: 35 RTC] Vintage miner port: Motorola 68K — Amiga, Atari ST/TT/Falcon or classic 68K Mac on its native OS, with real-hardware proof",
-      "url": "https://github.com/Paratii-Video/paratii-mediaplayer/issues/50",
-      "repo": "Scottcjn/rustchain-bounties",
-      "repo_info": {
-        "full_name": "Scottcjn/rustchain-bounties",
-        "stars": 288,
-        "forks": 434,
-        "open_issues": 921,
-        "created_at": "2026-02-02T04:29:16Z",
-        "pushed_at": "2026-11-07T02:26:41Z",
-        "archived": false,
-        "watchers": 37,
-        "size_kb": 7240,
-        "license": "AGPL-3.0",
-        "closed_bounties": null,
-        "merged_prs": 10,
-        "human_merged_prs": 10,
-        "external_merged_prs": 3,
-        "contributors": 100
-      },
-      "labels": [
-        "bounty",
-        "open",
-        "standard",
-        "multiplier",
-        "code"
-      ],
-      "created_at": "2026-11-07T02:23:02Z",
-      "updated_at": "2026-11-07T12:30:11Z",
-      "body_excerpt": "## The gap — 35 RTC\n\nThe node's table has the 68000 family at **2.2x–3.0x**, the classifier knows `68000`/`68020`/`68030`/`68040`/`mc68`/`m68k`, the Linux miner maps `m68k` to family `M68K`, and we ship a 61-hash database of emulator ROMs (`node/rom_fingerprint_db.py`) precisely so that real Amigas and 68K Macs can be told apart from UAE and Basilisk II. **No 68K machine has ever attested** because nothing in `miners/` runs on AmigaOS, TOS or System 6/7. No open bounty covers 68K (searched this board 2026-11-06).\n\n## Why this is a port and not \"just run the Python miner\"\n`miners/linux/rustchai",
-      "analysis": {
-        "score": 58.3,
-        "amount": 35.0,
-        "rail": "unknown",
-        "rail_note": "通道未知，需人工确认",
-        "cn_payout_possible": null,
-        "auto_fit": "待判",
-        "time_budget_min": null,
-        "reasons": [
-          "金额 $35",
-          "仅 2 条评论",
-          "有 10 个真人合并PR",
-          "1 天内有提交，项目活跃",
-          "需求描述详实",
-          "⏱ 无工时标注，需人工判断是否可自动化"
-        ]
-      }
-    },
-    {
-      "number": "17185",
-      "title": "[BOUNTY: 35 RTC] Vintage miner port: SPARC — SPARCstation / UltraSPARC on SunOS, Solaris or NetBSD, with real-hardware proof",
-      "url": "https://github.com/Paratii-Video/paratii-mediaplayer/issues/50",
-      "repo": "Scottcjn/rustchain-bounties",
-      "repo_info": {
-        "full_name": "Scottcjn/rustchain-bounties",
-        "stars": 288,
-        "forks": 434,
-        "open_issues": 921,
-        "created_at": "2026-02-02T04:29:16Z",
-        "pushed_at": "2026-11-07T02:26:41Z",
-        "archived": false,
-        "watchers": 37,
-        "size_kb": 7240,
-        "license": "AGPL-3.0",
-        "closed_bounties": null,
-        "merged_prs": 10,
-        "human_merged_prs": 10,
-        "external_merged_prs": 3,
-        "contributors": 100
-      },
-      "labels": [
-        "bounty",
-        "open",
-        "standard",
-        "multiplier",
-        "code"
-      ],
-      "created_at": "2026-11-07T02:22:59Z",
-      "updated_at": "2026-11-07T12:08:41Z",
-      "body_excerpt": "## The gap — 35 RTC\n\nThe node's multiplier table already carries SPARC at **1.8x–2.9x** (sparc_v7, sparc_v8, UltraSPARC) and the classifier recognises `sparc`, `sparc64`, `sun4u`, `sun4v` and the `ultrasparc` brand tokens. **Not one SPARC machine has ever attested.** There is no miner in `miners/` that runs on the operating systems these machines actually have. No open bounty covers SPARC (searched this board 2026-11-06).\n\n## Why this is a port and not \"just run the Python miner\"\n`miners/linux/rustchain_linux_miner.py` detects ``sparc`/`sparc64`/`sun4u`/`sun4v`` via `platform.machine()` and th",
-      "analysis": {
-        "score": 58.3,
-        "amount": 35.0,
-        "rail": "unknown",
-        "rail_note": "通道未知，需人工确认",
-        "cn_payout_possible": null,
-        "auto_fit": "待判",
-        "time_budget_min": null,
-        "reasons": [
-          "金额 $35",
-          "仅 2 条评论",
-          "有 10 个真人合并PR",
-          "1 天内有提交，项目活跃",
-          "需求描述详实",
-          "⏱ 无工时标注，需人工判断是否可自动化"
-        ]
-      }
-    },
-    {
-      "number": "17181",
-      "title": "[BOUNTY: 15 RTC] Python SDK CLI has zero tests — add a Click CliRunner suite for every command (wallet/node/epoch/miners/attest)",
-      "url": "https://github.com/Paratii-Video/paratii-mediaplayer/issues/50",
-      "repo": "Scottcjn/rustchain-bounties",
-      "repo_info": {
-        "full_name": "Scottcjn/rustchain-bounties",
-        "stars": 288,
-        "forks": 434,
-        "open_issues": 921,
-        "created_at": "2026-02-02T04:29:16Z",
-        "pushed_at": "2026-11-07T02:26:41Z",
-        "archived": false,
-        "watchers": 37,
-        "size_kb": 7240,
-        "license": "AGPL-3.0",
-        "closed_bounties": null,
-        "merged_prs": 10,
-        "human_merged_prs": 10,
-        "external_merged_prs": 3,
-        "contributors": 100
-      },
-      "labels": [
-        "bounty",
-        "open",
-        "standard",
-        "code",
-        "testing"
-      ],
-      "created_at": "2026-11-07T02:22:53Z",
-      "updated_at": "2026-11-08T03:10:31Z",
-      "body_excerpt": "## The gap — 15 RTC\n\n`sdk/python/rustchain_sdk/cli.py` (404 lines, Click, async under the hood) is the command people copy from the README: `rustchain wallet create|balance|send`, `node`, `epoch`, `miners list`, `attest`. It has **no tests at all**: `sdk/tests/` covers the client classes, `sdk/python/test_rustchain_sdk.py` covers HTTP endpoints, nothing touches the CLI. The result is a string of user-visible bugs found by hand in the last week — fractional amounts rejected (Rustchain#8564), README commands that the parser rejects (#8565), `attest --json` not attesting (#8566), balance printing",
-      "analysis": {
-        "score": 53.4,
-        "amount": 15.0,
-        "rail": "unknown",
-        "rail_note": "通道未知，需人工确认",
-        "cn_payout_possible": null,
-        "auto_fit": "待判",
-        "time_budget_min": null,
-        "reasons": [
-          "金额 $15",
-          "9 条评论，竞争中等",
-          "有 10 个真人合并PR",
-          "1 天内有提交，项目活跃",
-          "需求描述详实",
-          "属低门槛友好型任务",
-          "⏱ 无工时标注，需人工判断是否可自动化"
-        ]
-      }
-    },
-    {
-      "number": "17182",
-      "title": "[BOUNTY: 5 RTC] docs: reconcile the two miner config paths (/opt/rustchain-miner vs ~/.rustchain) across WALLET_SETUP.md, INSTALL.md and the installers (Rustchain#8407)",
-      "url": "https://github.com/Paratii-Video/paratii-mediaplayer/issues/50",
-      "repo": "Scottcjn/rustchain-bounties",
-      "repo_info": {
-        "full_name": "Scottcjn/rustchain-bounties",
-        "stars": 288,
-        "forks": 434,
-        "open_issues": 921,
-        "created_at": "2026-02-02T04:29:16Z",
-        "pushed_at": "2026-11-07T02:26:41Z",
-        "archived": false,
-        "watchers": 37,
-        "size_kb": 7240,
-        "license": "AGPL-3.0",
-        "closed_bounties": null,
-        "merged_prs": 10,
-        "human_merged_prs": 10,
-        "external_merged_prs": 3,
-        "contributors": 100
-      },
-      "labels": [
-        "documentation",
-        "good first issue",
-        "bounty",
-        "open",
-        "micro"
-      ],
-      "created_at": "2026-11-07T02:22:55Z",
-      "updated_at": "2026-11-08T03:11:51Z",
-      "body_excerpt": "## The gap — 5 RTC\n\n[Rustchain#8407](https://github.com/Scottcjn/Rustchain/issues/8407) is a well-evidenced report with no PR against it yet: `docs/WALLET_SETUP.md` tells newcomers to read `/opt/rustchain-miner/config.json` (lines 61, 361, 396, 406), which only exists after `rustchain.org/install.sh`. The repo's own `setup.sh`, `install-miner.sh` and `INSTALL.md` write `~/.rustchain/config.json`. A newcomer who installs from the repo and then follows the wallet guide gets ENOENT and never finds their `wallet_id`.\n\n## Deliverable\nA docs-only PR to `Scottcjn/Rustchain`:\n\n1. A single short sectio",
-      "analysis": {
-        "score": 51.1,
-        "amount": 5.0,
-        "rail": "unknown",
-        "rail_note": "通道未知，需人工确认",
-        "cn_payout_possible": null,
-        "auto_fit": "待判",
-        "time_budget_min": null,
-        "reasons": [
-          "金额 $5",
-          "9 条评论，竞争中等",
-          "有 10 个真人合并PR",
-          "1 天内有提交，项目活跃",
-          "需求描述详实",
-          "属低门槛友好型任务",
-          "⏱ 无工时标注，需人工判断是否可自动化"
-        ]
-      }
-    },
-    {
-      "number": "17187",
-      "title": "[BOUNTY: 30 RTC] Vintage miner port: MIPS — SGI IRIX (R4000–R16000) or DECstation Ultrix on the original hardware, with real-hardware proof",
-      "url": "https://github.com/Paratii-Video/paratii-mediaplayer/issues/50",
-      "repo": "Scottcjn/rustchain-bounties",
-      "repo_info": {
-        "full_name": "Scottcjn/rustchain-bounties",
-        "stars": 288,
-        "forks": 434,
-        "open_issues": 921,
-        "created_at": "2026-02-02T04:29:16Z",
-        "pushed_at": "2026-11-07T02:26:41Z",
-        "archived": false,
-        "watchers": 37,
-        "size_kb": 7240,
-        "license": "AGPL-3.0",
-        "closed_bounties": null,
-        "merged_prs": 10,
-        "human_merged_prs": 10,
-        "external_merged_prs": 3,
-        "contributors": 100
-      },
-      "labels": [
-        "bounty",
-        "open",
-        "standard",
-        "multiplier",
-        "code"
-      ],
-      "created_at": "2026-11-07T02:23:03Z",
-      "updated_at": "2026-11-07T12:51:39Z",
-      "body_excerpt": "## The gap — 30 RTC\n\nMIPS R2000 through R16000 sit at **2.3x–3.0x** in the node's table and the classifier has the full brand list (`r2000` … `r16000`, `vr4300`, `loongson`). Modern Loongson/OpenWrt boxes could attest with the Python miner today; **the SGI and DEC workstations the multiplier was written for cannot**, because nothing in `miners/` builds on IRIX or Ultrix. No open bounty covers MIPS (searched this board 2026-11-06). Loongson-on-modern-Linux does **not** qualify here — that is the Python miner's job.\n\n## Why this is a port and not \"just run the Python miner\"\n`miners/linux/rustcha",
-      "analysis": {
-        "score": 47.7,
-        "amount": 30.0,
-        "rail": "unknown",
-        "rail_note": "通道未知，需人工确认",
-        "cn_payout_possible": null,
-        "auto_fit": "待判",
-        "time_budget_min": null,
-        "reasons": [
-          "金额 $30",
-          "4 条评论，竞争中等",
-          "有 10 个真人合并PR",
-          "1 天内有提交，项目活跃",
-          "需求描述详实",
-          "⏱ 无工时标注，需人工判断是否可自动化"
-        ]
-      }
-    },
-    {
-      "number": "17180",
-      "title": "[BOUNTY: 25 RTC] Node liveness checks must validate the /health BODY, not just HTTP 200 — one shared probe for all five monitors",
-      "url": "https://github.com/Paratii-Video/paratii-mediaplayer/issues/50",
-      "repo": "Scottcjn/rustchain-bounties",
-      "repo_info": {
-        "full_name": "Scottcjn/rustchain-bounties",
-        "stars": 288,
-        "forks": 434,
-        "open_issues": 921,
-        "created_at": "2026-02-02T04:29:16Z",
-        "pushed_at": "2026-11-07T02:26:41Z",
-        "archived": false,
-        "watchers": 37,
-        "size_kb": 7240,
-        "license": "AGPL-3.0",
-        "closed_bounties": null,
-        "merged_prs": 10,
-        "human_merged_prs": 10,
-        "external_merged_prs": 3,
-        "contributors": 100
-      },
-      "labels": [
-        "bounty",
-        "open",
-        "standard",
-        "hardening",
-        "code"
-      ],
-      "created_at": "2026-11-07T02:22:51Z",
-      "updated_at": "2026-11-08T04:55:11Z",
-      "body_excerpt": "## The gap — 25 RTC\n\nEvery node monitor in `Scottcjn/Rustchain` decides \"up\" from the HTTP status code. If a node's host is replaced by something unrelated that answers **200 on every path** (a single-page app, a hosting parking page, a captive portal), the monitors report it healthy forever. This is not hypothetical: an external attestation node's IP was repurposed to serve an unrelated SPA, `/health` and `/epoch` both returned 200 with HTML, and the status page kept it green for weeks.\n\nWhere the code stands today (all on `main`):\n\n| Monitor | What it does with a 200 + non-JSON body |\n|---|-",
-      "analysis": {
-        "score": 47.0,
-        "amount": 25.0,
-        "rail": "unknown",
-        "rail_note": "通道未知，需人工确认",
-        "cn_payout_possible": null,
-        "auto_fit": "待判",
-        "time_budget_min": null,
-        "reasons": [
-          "金额 $25",
-          "8 条评论，竞争中等",
-          "有 10 个真人合并PR",
-          "1 天内有提交，项目活跃",
-          "需求描述详实",
-          "⏱ 无工时标注，需人工判断是否可自动化"
-        ]
-      }
-    },
-    {
-      "number": "17184",
-      "title": "[BOUNTY: 20 RTC] Catalog provider agent: list real work on the node /catalog, fulfil 2 paid orders from other agents end-to-end",
-      "url": "https://github.com/Paratii-Video/paratii-mediaplayer/issues/50",
-      "repo": "Scottcjn/rustchain-bounties",
-      "repo_info": {
-        "full_name": "Scottcjn/rustchain-bounties",
-        "stars": 288,
-        "forks": 434,
-        "open_issues": 921,
-        "created_at": "2026-02-02T04:29:16Z",
-        "pushed_at": "2026-11-07T02:26:41Z",
-        "archived": false,
-        "watchers": 37,
-        "size_kb": 7240,
-        "license": "AGPL-3.0",
-        "closed_bounties": null,
-        "merged_prs": 10,
-        "human_merged_prs": 10,
-        "external_merged_prs": 3,
-        "contributors": 100
-      },
-      "labels": [
-        "bounty",
-        "open",
-        "standard",
-        "integration",
-        "code",
-        "rip-302"
-      ],
-      "created_at": "2026-11-07T02:22:57Z",
-      "updated_at": "2026-11-08T02:32:29Z",
-      "body_excerpt": "## The gap — 20 RTC\n\nThe node's RTC service catalog is live (`GET https://rustchain.org/catalog`, `docs/SERVICE_CATALOG.md`, `tools/catalog_cli.py`): providers list work priced in RTC, buyers order, providers deliver, buyers accept and pay from their own wallet with memo `svc:<order_id>`. It is non-custodial and takes no fee. Today it has listings and **almost no completed, paid orders.** The missing piece is a provider that actually runs: watches its orders, does the work, delivers, and gets paid — unattended.\n\n## Deliverable\nA PR to `Scottcjn/Rustchain` adding `tools/catalog_provider/` (Pyth",
-      "analysis": {
-        "score": 46.3,
-        "amount": 20.0,
-        "rail": "unknown",
-        "rail_note": "通道未知，需人工确认",
-        "cn_payout_possible": null,
-        "auto_fit": "待判",
-        "time_budget_min": null,
-        "reasons": [
-          "金额 $20",
-          "8 条评论，竞争中等",
-          "有 10 个真人合并PR",
-          "1 天内有提交，项目活跃",
-          "需求描述详实",
-          "⏱ 无工时标注，需人工判断是否可自动化"
-        ]
-      }
-    },
-    {
-      "number": "17183",
-      "title": "[BOUNTY: 20 RTC] Spend RTC from the SDK: `rustchain services list|buy|use` against BoTTube /api/rtc/* (with one real 3-RTC purchase as proof)",
-      "url": "https://github.com/Paratii-Video/paratii-mediaplayer/issues/50",
-      "repo": "Scottcjn/rustchain-bounties",
-      "repo_info": {
-        "full_name": "Scottcjn/rustchain-bounties",
-        "stars": 288,
-        "forks": 434,
-        "open_issues": 921,
-        "created_at": "2026-02-02T04:29:16Z",
-        "pushed_at": "2026-11-07T02:26:41Z",
-        "archived": false,
-        "watchers": 37,
-        "size_kb": 7240,
-        "license": "AGPL-3.0",
-        "closed_bounties": null,
-        "merged_prs": 10,
-        "human_merged_prs": 10,
-        "external_merged_prs": 3,
-        "contributors": 100
-      },
-      "labels": [
-        "bounty",
-        "open",
-        "standard",
-        "integration",
-        "bottube",
-        "code"
-      ],
-      "created_at": "2026-11-07T02:22:56Z",
-      "updated_at": "2026-11-07T12:24:53Z",
-      "body_excerpt": "## The gap — 20 RTC\n\nBoTTube already sells real services for RTC — `GET https://bottube.ai/api/rtc/services` lists a Pro API day pass (10 RTC), a monthly pass (60), an AI video render (15), a render variant (5) and **POWER8 Deep Chat (3 RTC, one request to GPT-OSS 120B on an IBM POWER8 S824)** — and `POST /api/rtc/pay` → `service_token` → `POST /api/rtc/use` is the whole flow (`bottube/rtc_services.py`). But the Python SDK (`sdk/python/rustchain_sdk/bottube/client.py`) does not know any of it, and the CLI has no way to spend. RTC that is earned sits still because the tools only know how to *re",
-      "analysis": {
-        "score": 46.3,
-        "amount": 20.0,
-        "rail": "unknown",
-        "rail_note": "通道未知，需人工确认",
-        "cn_payout_possible": null,
-        "auto_fit": "待判",
-        "time_budget_min": null,
-        "reasons": [
-          "金额 $20",
-          "8 条评论，竞争中等",
-          "有 10 个真人合并PR",
-          "1 天内有提交，项目活跃",
-          "需求描述详实",
-          "⏱ 无工时标注，需人工判断是否可自动化"
-        ]
-      }
-    }
-  ],
+  "generated_at": "2026-11-08T15:03:49+00:00",
+  "duration_sec": 130.8,
+  "bounties": [],
   "pool": [
     {
       "number": "31",
@@ -1499,10 +1094,10 @@
         "forks": 57,
         "open_issues": 16,
         "created_at": "2025-12-14T11:39:18Z",
-        "pushed_at": "2026-11-08T05:26:36Z",
+        "pushed_at": "2026-11-08T06:12:54Z",
         "archived": false,
         "watchers": 0,
-        "size_kb": 83449,
+        "size_kb": 83450,
         "license": null,
         "closed_bounties": null,
         "merged_prs": 75,
@@ -1546,10 +1141,10 @@
         "forks": 57,
         "open_issues": 16,
         "created_at": "2025-12-14T11:39:18Z",
-        "pushed_at": "2026-11-08T05:26:36Z",
+        "pushed_at": "2026-11-08T06:12:54Z",
         "archived": false,
         "watchers": 0,
-        "size_kb": 83449,
+        "size_kb": 83450,
         "license": null,
         "closed_bounties": null,
         "merged_prs": 75,
@@ -2422,7 +2017,7 @@
           "金额 $300",
           "8 条评论，竞争中等",
           "有 7 个真人合并PR",
-          "已 204 天无提交，项目停滞",
+          "已 205 天无提交，项目停滞",
           "需求描述过于单薄",
           "🤖 标注 24 小时内可完成"
         ]
@@ -2468,7 +2063,7 @@
           "金额 $300",
           "7 条评论，竞争中等",
           "有 7 个真人合并PR",
-          "已 204 天无提交，项目停滞",
+          "已 205 天无提交，项目停滞",
           "需求描述过于单薄",
           "🤖 标注 24 小时内可完成"
         ]
@@ -2607,7 +2202,7 @@
           "金额 $300",
           "86 条评论，大概率已被抢",
           "有 7 个真人合并PR",
-          "已 204 天无提交，项目停滞",
+          "已 205 天无提交，项目停滞",
           "需求描述过于单薄",
           "🤖 标注 24 小时内可完成"
         ]
@@ -2655,8 +2250,8 @@
       "repo_info": {
         "full_name": "radumarias/rencfs",
         "stars": 4,
-        "forks": 58,
-        "open_issues": 46,
+        "forks": 57,
+        "open_issues": 45,
         "created_at": "2024-12-21T05:37:02Z",
         "pushed_at": "2024-12-21T04:34:32Z",
         "archived": false,
