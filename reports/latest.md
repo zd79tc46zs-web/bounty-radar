@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-10T20:00:22+00:00
-- 扫描耗时：128.2 秒
+- 生成时间：2026-11-11T00:37:36+00:00
+- 扫描耗时：132.0 秒
 - GitHub 赏金候选：**12** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -11,14 +11,14 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [🪙 Bounty: Improve project documentation](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 1. [[BOUNTY][$420][ADD] P. Diddy Lube](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`the3kingleo-cmyk/ruth`
-- **金额**：$100
+- **可信度评分**：62.0/100 ｜ 仓库：`theselfish/SlopStation13`
+- **金额**：$420
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T17:50:26Z
-- 判断依据：金额 $100；零评论，竞品少；有 1 个真人合并PR；0 天内有提交，项目活跃；🤖 需求体量小，可能适合自动化
+- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-08-02T04:32:07Z
+- 判断依据：金额 $420；零评论，竞品少；有 1 个真人合并PR；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 2. [🪙 Bounty: Improve project documentation](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
@@ -34,7 +34,7 @@
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/ai`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★24 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
+- 仓库信号：★26 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
 - 判断依据：未标注金额；仅 2 条评论；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 4. [[QA Bounty] [P1] Video Generation Reliability](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
@@ -42,7 +42,7 @@
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/ai`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★24 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
+- 仓库信号：★26 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 5. [[QA Bounty] [P1] Audio Generation & Transcription](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
@@ -50,32 +50,33 @@
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/ai`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★24 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
-- 判断依据：未标注金额；仅 2 条评论；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★26 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
+- 判断依据：未标注金额；仅 3 条评论；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 6. [[QA Bounty] [P1] Text Generation Edge Cases](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/ai`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★24 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
-- 判断依据：未标注金额；仅 2 条评论；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★26 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
+- 判断依据：未标注金额；仅 3 条评论；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 7. [[QA Bounty] [P1] Image Generation Consistency](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/ai`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★24 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
+- 仓库信号：★26 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
 - 判断依据：未标注金额；仅 2 条评论；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 8. [[QA Bounty] [P1] Cross-Modal Workflows](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 8. [🪙 Bounty: Improve project documentation](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/ai`
+- **可信度评分**：48.0/100 ｜ 仓库：`the3kingleo-cmyk/ruth`
+- **金额**：$100
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★24 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T18:53:30Z
-- 判断依据：未标注金额；仅 2 条评论；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-10T17:50:26Z
+- 判断依据：金额 $100；仅 1 条评论；有 1 个真人合并PR；0 天内有提交，项目活跃；🤖 需求体量小，可能适合自动化
 
 ### 9. [🪙 Bounty: Improve project documentation](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
