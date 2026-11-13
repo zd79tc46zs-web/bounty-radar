@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-13T01:02:09+00:00
-- 扫描耗时：132.1 秒
-- GitHub 赏金候选：**3** 条
+- 生成时间：2026-11-13T12:06:45+00:00
+- 扫描耗时：132.0 秒
+- GitHub 赏金候选：**2** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -13,28 +13,20 @@
 
 ### 1. [[BOUNTY][$420][ADD] P. Diddy Lube](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：62.0/100 ｜ 仓库：`theselfish/SlopStation13`
+- **可信度评分**：58.0/100 ｜ 仓库：`theselfish/SlopStation13`
 - **金额**：$420
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-08-02T04:32:07Z
-- 判断依据：金额 $420；零评论，竞品少；有 1 个真人合并PR；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：金额 $420；仅 2 条评论；有 1 个真人合并PR；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 2. [Call for implementations: independent SPEC-014 resolver (weekend-sized) — take Resolution out of Draft](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：52.0/100 ｜ 仓库：`nomos-spec/spec`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-12T17:07:42Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 35 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
-
-### 3. [Call for implementations: independent SPEC-008 Act verifier — be the one that takes it out of Draft](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 2. [Call for implementations: independent SPEC-008 Act verifier — be the one that takes it out of Draft](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`nomos-spec/spec`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-12T17:07:42Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 35 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-13T10:50:45Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 39 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
@@ -47,7 +39,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；9 条评论，竞争中等；有 17 个真人合并PR；4 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；10 条评论，竞争中等；有 17 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Preserve 502 for exchange transport failures](https://github.com/devpool-directory/devpool-directory/issues/6255)
 
