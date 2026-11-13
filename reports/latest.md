@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-12T16:47:19+00:00
-- 扫描耗时：133.8 秒
+- 生成时间：2026-11-13T01:02:09+00:00
+- 扫描耗时：132.1 秒
 - GitHub 赏金候选：**3** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -25,16 +25,16 @@
 - **可信度评分**：52.0/100 ｜ 仓库：`nomos-spec/spec`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-12T10:47:56Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 34 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-12T17:07:42Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 35 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 3. [Call for implementations: independent SPEC-008 Act verifier — be the one that takes it out of Draft](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`nomos-spec/spec`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-12T10:47:56Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 34 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-12T17:07:42Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 35 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
@@ -167,7 +167,7 @@
   - https://github.com/rodrigompy/bugb/issues/1
 - **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
   - https://github.com/radumarias/rencfs/issues/3
-- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 29 人 ｜ 尝试中 42 人
+- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 29 人 ｜ 尝试中 43 人
   - https://github.com/flowese/UdioWrapper/issues/7
 
 ## 四、需求信号（自建数字产品的选题来源）
