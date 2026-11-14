@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-14T11:25:10+00:00
-- 扫描耗时：130.7 秒
+- 生成时间：2026-11-14T17:57:44+00:00
+- 扫描耗时：125.5 秒
 - GitHub 赏金候选：**2** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -25,8 +25,8 @@
 - **可信度评分**：48.0/100 ｜ 仓库：`nomos-spec/spec`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-14T07:44:32Z
-- 判断依据：未标注金额；仅 3 条评论；近期有 41 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-14T15:41:21Z
+- 判断依据：未标注金额；仅 3 条评论；近期有 43 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
@@ -166,8 +166,12 @@
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
-- Docs: economy, kits, lootboxes and discoveries guides (player and admin) — `PandiO/knk-workspace` (0 评论)
-  - https://github.com/PandiO/knk-workspace/issues/300
+- research: MCP teaching server that embeds OxDock docs for agents — `jzombie/rust-oxdock` (2 评论)
+  - https://github.com/jzombie/rust-oxdock/issues/300
+- The website's front page says what Settee is and how to get it — `neutraltone/settee` (0 评论)
+  - https://github.com/neutraltone/settee/issues/300
+- User guide: CREATE SCRIPT statements fail in DbVisualizer without block delimite — `exasol/kafka-connector-extension` (0 评论)
+  - https://github.com/exasol/kafka-connector-extension/issues/300
 - docs: there's no guide for the people who write in the admin — `tachyon-cms/tachyoncms` (0 评论)
   - https://github.com/tachyon-cms/tachyoncms/issues/300
 - [docs] "Coming from SQL/PGQ or DuckPGQ": docs, the agent skill, and errors that  — `cldixon/ursa` (0 评论)
@@ -186,10 +190,6 @@
   - https://github.com/ariefenv-hash/moyugang/issues/1
 - Add a docs site with MkDocs Material — `eyadstein/leaklens` (0 评论)
   - https://github.com/eyadstein/leaklens/issues/300
-- VDR driver table lists the wrong driver families, and a family-only NeoPRISM req — `hyperledger-identus/docs` (1 评论)
-  - https://github.com/hyperledger-identus/docs/issues/300
-- docs: a cookbook artifact that keeps docs/ the source of truth for people and ag — `lmarqs/the-cook` (36 评论)
-  - https://github.com/lmarqs/the-cook/issues/90
 
 ---
 
