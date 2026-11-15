@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-15T15:38:14+00:00
-- 扫描耗时：130.7 秒
-- GitHub 赏金候选：**0** 条
+- 生成时间：2026-11-15T21:00:55+00:00
+- 扫描耗时：131.6 秒
+- GitHub 赏金候选：**25** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,7 +11,102 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-> 本轮未发现符合条件的高价值候选。
+### 1. [Model co-design for the edge: early exits, structured sparsity, quantization-aware distillation](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 2. [Power-aware inference: DVFS and thermal stability policy](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 3. [Disaggregated prefill/decode and KV transport](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 4. [Native sparse attention and multi-head latent attention](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 5. [Fused MoE execution, expert paging and expert-parallel communication](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 6. [Heterogeneous memory, CPU/GPU offload and cold-start minimisation](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 7. [Continuous batching, chunked prefill and latency-aware scheduling](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 8. [Next-generation speculative decoding: feature-level drafts (EAGLE-3) and workload-aware draft selection](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 9. [CUDA graphs for the linear-attention decode path, verification and variable shapes](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 10. [Hardware-specialised attention: FlashAttention-4, FlashInfer, cascade attention](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 11. [Long-context cache selection: retrieval heads vs streaming heads](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 12. [Persistent, shareable prefix caches for multi-turn agents](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
 > 这批来自实测确认**真实付过款**的仓库（Ubiquity/DevPool 生态）。
