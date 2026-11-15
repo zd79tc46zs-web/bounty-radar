@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-15T06:16:17+00:00
-- 扫描耗时：128.5 秒
-- GitHub 赏金候选：**1** 条
+- 生成时间：2026-11-15T15:38:14+00:00
+- 扫描耗时：130.7 秒
+- GitHub 赏金候选：**0** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,14 +11,7 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [Call for implementations: independent SPEC-008 Act verifier — be the one that takes it out of Draft](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：48.0/100 ｜ 仓库：`nomos-spec/spec`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-14T15:41:21Z
-- 判断依据：未标注金额；仅 3 条评论；近期有 43 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
-
+> 本轮未发现符合条件的高价值候选。
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
 > 这批来自实测确认**真实付过款**的仓库（Ubiquity/DevPool 生态）。
@@ -150,7 +143,7 @@
   - https://github.com/rodrigompy/bugb/issues/1
 - **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
   - https://github.com/radumarias/rencfs/issues/3
-- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 29 人 ｜ 尝试中 43 人
+- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 30 人 ｜ 尝试中 44 人
   - https://github.com/flowese/UdioWrapper/issues/7
 
 ## 四、需求信号（自建数字产品的选题来源）
