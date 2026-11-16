@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-16T06:13:28+00:00
-- 扫描耗时：129.9 秒
-- GitHub 赏金候选：**13** 条
+- 生成时间：2026-11-16T18:24:48+00:00
+- 扫描耗时：130.2 秒
+- GitHub 赏金候选：**11** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,103 +11,92 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [Bounty $150: capture adapter for Front](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 1. [[BOUNTY] Suggestion #1325](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：67.1/100 ｜ 仓库：`overturn-ai/overturn`
-- **金额**：$150
+- **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
 - **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
 - **大陆可收款**：✅ 是
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T03:51:10Z
-- 判断依据：金额 $150；7 条评论，竞争中等；有 15 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★66 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T03:54:59Z
+- 判断依据：未标注金额；仅 2 条评论；近期有 22 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
 
-### 2. [Bounty $100: capture adapter for Gorgias](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：64.0/100 ｜ 仓库：`overturn-ai/overturn`
-- **金额**：$100
-- **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
-- **大陆可收款**：✅ 是
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T03:51:10Z
-- 判断依据：金额 $100；8 条评论，竞争中等；有 15 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
-
-### 3. [Bounty $100: capture adapter for Intercom](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：64.0/100 ｜ 仓库：`overturn-ai/overturn`
-- **金额**：$100
-- **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
-- **大陆可收款**：✅ 是
-- 仓库信号：★0 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T03:51:10Z
-- 判断依据：金额 $100；8 条评论，竞争中等；有 15 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
-
-### 4. [Verifiable federated updates and Byzantine-robust training (Hanzo side)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 2. [Verifiable federated updates and Byzantine-robust training (Hanzo side)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 5. [Permissionless internet-scale model training](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 3. [Permissionless internet-scale model training](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 6. [Decentralized edge and mobile inference providers](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 4. [Decentralized edge and mobile inference providers](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
+- 判断依据：未标注金额；仅 2 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 5. [Peer-to-peer distributed LLM inference](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 7. [Peer-to-peer distributed LLM inference](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 6. [Confidential GPU inference and remote attestation client](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 8. [Confidential GPU inference and remote attestation client](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 7. [zkML and zkVM proofs for small models and decisions](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 9. [zkML and zkVM proofs for small models and decisions](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 8. [Optimistic AI execution and fraud-proof games](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 10. [Optimistic AI execution and fraud-proof games](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 9. [Proof of AI: CPU-verifiable GPU matrix products (Hanzo execution side)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 11. [Proof of AI: CPU-verifiable GPU matrix products (Hanzo execution side)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 10. [Deterministic AI execution profiles](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 12. [Deterministic AI execution profiles](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 11. [Permissionless GPU provider daemon](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T10:22:30Z
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
 - 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
@@ -248,6 +237,10 @@
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
+- docs: self-hosting on a single VPS with Docker Compose and Caddy — `Godgift-care/sci-healthcare-backend` (0 评论)
+  - https://github.com/Godgift-care/sci-healthcare-backend/issues/300
+- Add tested Composer task recipes for small Phel programs — `phel-lang/phel-lang.org` (0 评论)
+  - https://github.com/phel-lang/phel-lang.org/issues/300
 - research: MCP teaching server that embeds OxDock docs for agents — `jzombie/rust-oxdock` (2 评论)
   - https://github.com/jzombie/rust-oxdock/issues/300
 - The website's front page says what Settee is and how to get it — `neutraltone/settee` (0 评论)
@@ -258,6 +251,8 @@
   - https://github.com/tachyon-cms/tachyoncms/issues/300
 - [docs] "Coming from SQL/PGQ or DuckPGQ": docs, the agent skill, and errors that  — `cldixon/ursa` (0 评论)
   - https://github.com/cldixon/ursa/issues/300
+- Plan the open-source launch on Show HN, r/selfhosted, and r/SideProject — `eddiejaoude/StackDash` (0 评论)
+  - https://github.com/eddiejaoude/StackDash/issues/146
 - observability: the certificate-renewal row says every deploy restores a deleted  — `yedeya/plinthos` (0 评论)
   - https://github.com/yedeya/plinthos/issues/300
 - Release hygiene: Zenodo DOI per release; tag and publish ontospan, pin its versi — `phentrieve/ontotator` (1 评论)
@@ -266,12 +261,6 @@
   - https://github.com/yeongseon/azure-app-service-practical-guide/issues/300
 - Build a concise generated user-facing Woge documentation site — `christian-draeger/woge` (0 评论)
   - https://github.com/christian-draeger/woge/issues/300
-- 🧪 Playtest fixes, test user U08 (Ash): 10 findings — `esoinila/SpaceSails` (0 评论)
-  - https://github.com/esoinila/SpaceSails/issues/1422
-- 【置顶·上下文交接】定时任务 Agent 开发存档：主线十章全卷完结（第伍至拾章六章连发实装）+ 下一轮待办池 — `ariefenv-hash/moyugang` (42 评论)
-  - https://github.com/ariefenv-hash/moyugang/issues/1
-- Add a docs site with MkDocs Material — `eyadstein/leaklens` (0 评论)
-  - https://github.com/eyadstein/leaklens/issues/300
 
 ---
 
