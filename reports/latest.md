@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-16T18:24:48+00:00
-- 扫描耗时：130.2 秒
-- GitHub 赏金候选：**11** 条
+- 生成时间：2026-11-17T02:54:58+00:00
+- 扫描耗时：128.0 秒
+- GitHub 赏金候选：**17** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,93 +11,101 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [[BOUNTY] Suggestion #1325](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 1. [[Bounty #20] Incremental GPU checkpointing · engine / cloud (GCR)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：54.0/100 ｜ 仓库：`SPLURT-Station/S.P.L.U.R.T-tg`
-- **结算通道**：`paypal` — PayPal 大陆商家可提现，但单笔固定费 $35
-- **大陆可收款**：✅ 是
-- 仓库信号：★66 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T03:54:59Z
-- 判断依据：未标注金额；仅 2 条评论；近期有 22 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；✅ 结算通道可行：paypal（PayPal 大陆商家可提现，但单笔固定费 $35）；⏱ 无工时标注，需人工判断是否可自动化
-
-### 2. [Verifiable federated updates and Byzantine-robust training (Hanzo side)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T22:33:11Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 21 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 3. [Permissionless internet-scale model training](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 2. [[Bounty #19] Non-prefix RAG KV fusion · engine / index (CacheBlend)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T22:33:11Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 21 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 4. [Decentralized edge and mobile inference providers](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 3. [[Bounty #16] Near-zero-overhead constrained generation · engine (XGrammar-2)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 2 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T22:33:11Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 21 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 5. [Peer-to-peer distributed LLM inference](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 4. [[Bounty #15] Multi-tenant LoRA paging · engine (S-LoRA)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T22:33:11Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 21 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 6. [Confidential GPU inference and remote attestation client](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 5. [[Bounty #14] Model-loading IO templates · engine / ml (PPC / MAIO)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T22:33:11Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 21 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 7. [zkML and zkVM proofs for small models and decisions](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 6. [[Bounty #13] KV-residency-aware scheduling · engine / cloud (Bidaw)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T22:33:11Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 21 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 8. [Optimistic AI execution and fraud-proof games](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 7. [[Bounty #12] Position-shifted prompt reuse · engine (CacheSlide)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T22:33:11Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 21 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 9. [Proof of AI: CPU-verifiable GPU matrix products (Hanzo execution side)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 8. [[Bounty #11] Sparse KV offload for local Zen · engine (SolidAttention)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：56.0/100 ｜ 仓库：`hanzoai/engine`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T22:33:11Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 21 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 10. [Deterministic AI execution profiles](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 9. [[Bounty #46] Training data-pipeline cache allocation · ml (Seneca)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：46.0/100 ｜ 仓库：`hanzoai/ml`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★7 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T08:26:01Z
+- 判断依据：未标注金额；零评论，竞品少；有 17 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
-### 11. [Permissionless GPU provider daemon](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 10. [[Bounty #45] Redundancy-aware training checkpoints · ml (AdaCheck)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
-- **可信度评分**：52.0/100 ｜ 仓库：`hanzoai/engine`
+- **可信度评分**：46.0/100 ｜ 仓库：`hanzoai/ml`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-16T09:03:22Z
-- 判断依据：未标注金额；仅 1 条评论；近期有 20 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★7 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-15T08:26:01Z
+- 判断依据：未标注金额；零评论，竞品少；有 17 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 11. [[Bounty #44] Predictive SSD failure detection · s3 (FailureMiner)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：46.0/100 ｜ 仓库：`hanzoai/s3`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★4 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-13T03:05:07Z
+- 判断依据：未标注金额；零评论，竞品少；有 7 个真人合并PR；3 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
+### 12. [[Bounty #42] Discard-versus-compaction economics · s3 (DisCoGC)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：46.0/100 ｜ 仓库：`hanzoai/s3`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★4 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-13T03:05:07Z
+- 判断依据：未标注金额；零评论，竞品少；有 7 个真人合并PR；3 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
@@ -110,9 +118,17 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；10 条评论，竞争中等；有 17 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；10 条评论，竞争中等；有 17 个真人合并PR；2 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
-### P2. [Preserve 502 for exchange transport failures](https://github.com/devpool-directory/devpool-directory/issues/6255)
+### P2. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/ubiquity/.github/issues/137)
+
+- 评分 **60.1/100** ｜ $75 ｜ `ubiquity/.github`
+- 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
+- 大陆可收款：⛔ 否
+- 标签：Time: <1 Hour, Priority: 2 (Medium), Price: 75 USD
+- 判断依据：金额 $75；仅 2 条评论；有 17 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+
+### P3. [Preserve 502 for exchange transport failures](https://github.com/devpool-directory/devpool-directory/issues/6255)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -120,7 +136,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 3 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P3. [Return 401 for rejected Passport exchange codes](https://github.com/devpool-directory/devpool-directory/issues/6253)
+### P4. [Return 401 for rejected Passport exchange codes](https://github.com/devpool-directory/devpool-directory/issues/6253)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -128,7 +144,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 3 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P4. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6239)
+### P5. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6239)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -136,7 +152,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P5. [Multiple Matchmaking Comments](https://github.com/devpool-directory/devpool-directory/issues/6230)
+### P6. [Multiple Matchmaking Comments](https://github.com/devpool-directory/devpool-directory/issues/6230)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -144,7 +160,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P6. [Keep HTTP diagnostic Boolean parsing consistent for n](https://github.com/devpool-directory/devpool-directory/issues/6215)
+### P7. [Keep HTTP diagnostic Boolean parsing consistent for n](https://github.com/devpool-directory/devpool-directory/issues/6215)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -152,7 +168,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P7. [Resolve the selected RPC when each request is made](https://github.com/devpool-directory/devpool-directory/issues/6141)
+### P8. [Resolve the selected RPC when each request is made](https://github.com/devpool-directory/devpool-directory/issues/6141)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -160,7 +176,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P8. [Apply the health-check deadline to response decoding](https://github.com/devpool-directory/devpool-directory/issues/6140)
+### P9. [Apply the health-check deadline to response decoding](https://github.com/devpool-directory/devpool-directory/issues/6140)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -168,7 +184,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P9. [Dismiss reverted-receipt toasts when the status clears](https://github.com/devpool-directory/devpool-directory/issues/6139)
+### P10. [Dismiss reverted-receipt toasts when the status clears](https://github.com/devpool-directory/devpool-directory/issues/6139)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -176,7 +192,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P10. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6021)
+### P11. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6021)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -184,7 +200,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P11. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/devpool-directory/devpool-directory/issues/6019)
+### P12. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/devpool-directory/devpool-directory/issues/6019)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -192,7 +208,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P12. [New Proposal Router](https://github.com/devpool-directory/devpool-directory/issues/6251)
+### P13. [New Proposal Router](https://github.com/devpool-directory/devpool-directory/issues/6251)
 
 - 评分 **50.0/100** ｜ $300 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
@@ -200,7 +216,7 @@
 - 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
 - 判断依据：金额 $300；仅 3 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P13. [Generalized "GitHub Webhook + Contributor Role -> Rewards" With Config v3](https://github.com/devpool-directory/devpool-directory/issues/6246)
+### P14. [Generalized "GitHub Webhook + Contributor Role -> Rewards" With Config v3](https://github.com/devpool-directory/devpool-directory/issues/6246)
 
 - 评分 **50.0/100** ｜ $300 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
@@ -208,21 +224,13 @@
 - 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
 - 判断依据：金额 $300；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P14. [Check dev experience on starting an issue](https://github.com/devpool-directory/devpool-directory/issues/6244)
+### P15. [Check dev experience on starting an issue](https://github.com/devpool-directory/devpool-directory/issues/6244)
 
 - 评分 **50.0/100** ｜ $300 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
 - 判断依据：金额 $300；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
-
-### P15. [CI: fix `check_storage_layout` for new contracts](https://github.com/devpool-directory/devpool-directory/issues/6221)
-
-- 评分 **50.0/100** ｜ $300 ｜ `devpool-directory/devpool-directory`
-- 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
-- 大陆可收款：⛔ 否
-- 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
-- 判断依据：金额 $300；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ## 三、Opire 平台赏金
 
