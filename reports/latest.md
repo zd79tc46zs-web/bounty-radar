@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-17T13:10:30+00:00
-- 扫描耗时：123.5 秒
-- GitHub 赏金候选：**5** 条
+- 生成时间：2026-11-17T23:30:18+00:00
+- 扫描耗时：129.0 秒
+- GitHub 赏金候选：**1** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,45 +11,13 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [[Bounty #42] Discard-versus-compaction economics · s3 (DisCoGC)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：46.0/100 ｜ 仓库：`hanzoai/s3`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★4 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-13T03:05:07Z
-- 判断依据：未标注金额；零评论，竞品少；有 7 个真人合并PR；4 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
-
-### 2. [[Bounty #38] Agent-computer interface optimization · mcp (SWE-agent ACI)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+### 1. [[Bounty #38] Agent-computer interface optimization · mcp (SWE-agent ACI)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：46.0/100 ｜ 仓库：`hanzoai/mcp`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★17 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-17T00:11:48Z
 - 判断依据：未标注金额；仅 2 条评论；有 18 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
-
-### 3. [[Bounty #33] Risky-tool simulation · agents / mcp (ToolEmu)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：46.0/100 ｜ 仓库：`hanzoai/mcp`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★17 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-17T00:11:48Z
-- 判断依据：未标注金额；仅 2 条评论；有 18 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
-
-### 4. [[Bounty #32] Prompt-injection resistance · agents / mcp (AgentDojo)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：46.0/100 ｜ 仓库：`hanzoai/mcp`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★17 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-17T00:11:48Z
-- 判断依据：未标注金额；仅 2 条评论；有 18 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
-
-### 5. [[Bounty #27] Retrieval-aware Zen fine-tuning · ml / index (RAFT)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：46.0/100 ｜ 仓库：`hanzoai/ml`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★8 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-17T05:43:20Z
-- 判断依据：未标注金额；零评论，竞品少；有 17 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
@@ -182,13 +150,25 @@
   - https://github.com/rodrigompy/bugb/issues/1
 - **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
   - https://github.com/radumarias/rencfs/issues/3
-- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 30 人 ｜ 尝试中 44 人
+- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 30 人 ｜ 尝试中 45 人
   - https://github.com/flowese/UdioWrapper/issues/7
 
 ## 四、需求信号（自建数字产品的选题来源）
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
+- Filiation page: companion document path is stale — `saucisson/layered-data` (0 评论)
+  - https://github.com/saucisson/layered-data/issues/300
+- Desain ekosistem progres persisten & ekonomi Lembah Berdua (Ladang–Kafe–Rumah) — `oskhar/Soforia` (2 评论)
+  - https://github.com/oskhar/Soforia/issues/63
+- Roadmap — `bberka/TabLodge` (0 评论)
+  - https://github.com/bberka/TabLodge/issues/300
+- "[P3][文档/矛盾] README 称“应用包名尚未变更”，但 applicationId 已统一为 com.nodeman24.nowave" — `BrainEno/flutter-blog` (0 评论)
+  - https://github.com/BrainEno/flutter-blog/issues/300
+- docs(mpp): audit MppError::InvalidCredential's doc comment against every place i — `sorocharge/sorocharge-core` (0 评论)
+  - https://github.com/sorocharge/sorocharge-core/issues/300
+- [TA Feedback][SRS] Justify numerical performance and reliability targets — `SoftwareMandems/FPVR` (0 评论)
+  - https://github.com/SoftwareMandems/FPVR/issues/300
 - docs: self-hosting on a single VPS with Docker Compose and Caddy — `Godgift-care/sci-healthcare-backend` (0 评论)
   - https://github.com/Godgift-care/sci-healthcare-backend/issues/300
 - Add tested Composer task recipes for small Phel programs — `phel-lang/phel-lang.org` (0 评论)
@@ -201,18 +181,6 @@
   - https://github.com/exasol/kafka-connector-extension/issues/300
 - docs: there's no guide for the people who write in the admin — `tachyon-cms/tachyoncms` (0 评论)
   - https://github.com/tachyon-cms/tachyoncms/issues/300
-- [docs] "Coming from SQL/PGQ or DuckPGQ": docs, the agent skill, and errors that  — `cldixon/ursa` (0 评论)
-  - https://github.com/cldixon/ursa/issues/300
-- Plan the open-source launch on Show HN, r/selfhosted, and r/SideProject — `eddiejaoude/StackDash` (0 评论)
-  - https://github.com/eddiejaoude/StackDash/issues/146
-- observability: the certificate-renewal row says every deploy restores a deleted  — `yedeya/plinthos` (0 评论)
-  - https://github.com/yedeya/plinthos/issues/300
-- Release hygiene: Zenodo DOI per release; tag and publish ontospan, pin its versi — `phentrieve/ontotator` (1 评论)
-  - https://github.com/phentrieve/ontotator/issues/300
-- docs(diagrams): update architecture and runtime visuals for request lifecycle — `yeongseon/azure-app-service-practical-guide` (0 评论)
-  - https://github.com/yeongseon/azure-app-service-practical-guide/issues/300
-- Build a concise generated user-facing Woge documentation site — `christian-draeger/woge` (0 评论)
-  - https://github.com/christian-draeger/woge/issues/300
 
 ---
 
