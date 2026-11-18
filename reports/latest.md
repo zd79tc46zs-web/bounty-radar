@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-17T23:30:18+00:00
-- 扫描耗时：129.0 秒
+- 生成时间：2026-11-18T07:13:59+00:00
+- 扫描耗时：126.9 秒
 - GitHub 赏金候选：**1** 条
 - 真实付费赏金池：**47** 条
 - Opire 平台赏金：**3** 条
@@ -17,7 +17,7 @@
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
 - 仓库信号：★17 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-17T00:11:48Z
-- 判断依据：未标注金额；仅 2 条评论；有 18 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+- 判断依据：未标注金额；仅 3 条评论；有 18 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
@@ -30,7 +30,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；10 条评论，竞争中等；有 17 个真人合并PR；2 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；10 条评论，竞争中等；有 17 个真人合并PR；3 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/ubiquity/.github/issues/137)
 
@@ -38,7 +38,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Hour, Priority: 2 (Medium), Price: 75 USD
-- 判断依据：金额 $75；仅 2 条评论；有 17 个真人合并PR；0 天内有提交，项目活跃；需求描述详实；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 2 条评论；有 17 个真人合并PR；1 天内有提交，项目活跃；需求描述详实；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P3. [Preserve 502 for exchange transport failures](https://github.com/devpool-directory/devpool-directory/issues/6255)
 
@@ -157,6 +157,10 @@
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
+- [ux] Plain-language review of the texts in "Mis pagos y recibos" — `Open-Hub-Tec/yucu-protocol` (0 评论)
+  - https://github.com/Open-Hub-Tec/yucu-protocol/issues/300
+- Add missing problem info to solutions with no description - no code needed — `Huerte/algo-solutions-python` (0 评论)
+  - https://github.com/Huerte/algo-solutions-python/issues/300
 - Filiation page: companion document path is stale — `saucisson/layered-data` (0 评论)
   - https://github.com/saucisson/layered-data/issues/300
 - Desain ekosistem progres persisten & ekonomi Lembah Berdua (Ladang–Kafe–Rumah) — `oskhar/Soforia` (2 评论)
@@ -177,10 +181,6 @@
   - https://github.com/jzombie/rust-oxdock/issues/300
 - The website's front page says what Settee is and how to get it — `neutraltone/settee` (0 评论)
   - https://github.com/neutraltone/settee/issues/300
-- User guide: CREATE SCRIPT statements fail in DbVisualizer without block delimite — `exasol/kafka-connector-extension` (0 评论)
-  - https://github.com/exasol/kafka-connector-extension/issues/300
-- docs: there's no guide for the people who write in the admin — `tachyon-cms/tachyoncms` (0 评论)
-  - https://github.com/tachyon-cms/tachyoncms/issues/300
 
 ---
 

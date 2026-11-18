@@ -1,0 +1,2604 @@
+{
+  "generated_at": "2026-11-18T07:13:59+00:00",
+  "duration_sec": 126.9,
+  "bounties": [
+    {
+      "number": "48",
+      "title": "[Bounty #38] Agent-computer interface optimization · mcp (SWE-agent ACI)",
+      "url": "https://github.com/Paratii-Video/paratii-mediaplayer/issues/50",
+      "repo": "hanzoai/mcp",
+      "repo_info": {
+        "full_name": "hanzoai/mcp",
+        "stars": 17,
+        "forks": 22,
+        "open_issues": 16,
+        "created_at": "2025-03-24T03:19:32Z",
+        "pushed_at": "2026-11-17T00:11:48Z",
+        "archived": false,
+        "watchers": 1,
+        "size_kb": 444312,
+        "license": "MIT",
+        "closed_bounties": null,
+        "merged_prs": 18,
+        "human_merged_prs": 18,
+        "external_merged_prs": 18,
+        "contributors": 6
+      },
+      "labels": [
+        "help wanted",
+        "bounty",
+        "research",
+        "perf"
+      ],
+      "created_at": "2026-11-16T23:44:32Z",
+      "updated_at": "2026-11-18T06:16:39Z",
+      "body_excerpt": "**Umbrella HIP**: [HIP-1347: Event-Driven Agent Reliability](https://hips.hanzo.ai/docs/hip-1347-event-driven-agent-reliability/) (`hanzoai/hips`)\n**Bounty Class**: Research + Implementation Bounty\n**Primary Research / Code**: [SWE-agent, NeurIPS '24](https://papers.nips.cc/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html)\n\n### Objective & Acceptance Test\nExperiment with concise structured command responses and deterministic editing APIs in `hanzoai/mcp`. Compare tool-call count, patch correctness, and end-to-end task completion.\n\n### Scope & Canonical Architecture\nPai",
+      "analysis": {
+        "score": 46.0,
+        "amount": null,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "待判",
+        "time_budget_min": null,
+        "reasons": [
+          "未标注金额",
+          "仅 3 条评论",
+          "有 18 个真人合并PR",
+          "1 天内有提交，项目活跃",
+          "需求描述详实",
+          "属低门槛友好型任务",
+          "⏱ 无工时标注，需人工判断是否可自动化"
+        ]
+      }
+    }
+  ],
+  "pool": [
+    {
+      "number": "31",
+      "title": "Keep HTTP diagnostic Boolean parsing consistent for n",
+      "url": "https://github.com/ubiquity/permit2-rpc-manager/issues/31",
+      "repo": "ubiquity/permit2-rpc-manager",
+      "repo_info": {
+        "full_name": "ubiquity/permit2-rpc-manager",
+        "stars": 0,
+        "forks": 8,
+        "open_issues": 6,
+        "created_at": "2025-03-31T19:09:44Z",
+        "pushed_at": "2026-11-15T02:41:45Z",
+        "archived": false,
+        "watchers": 2,
+        "size_kb": 3280,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 17,
+        "human_merged_prs": 17,
+        "external_merged_prs": 17,
+        "contributors": 4
+      },
+      "labels": [
+        "Price: 75 USD",
+        "Time: <1 Hour",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "The HTTP diagnostics DO candidate uses different Boolean parsers for refresh and health snapshot identities. `RPC_VALIDATE_CHAIN_ID=n` is false in `createRuntime()` but true in `worker.ts`, so successful refreshes write a false-validation fingerprint while `/health` reads a true-validation fingerprint and reports missing diagnostics.\n\nAffected revision: `641918b3e6e375f77addaefda8728726466f8f3c` in PR #30, matching reviewed source manifest `6e011049766df6df0aba2beb4169344d93f81701d7ebb3199792233",
+      "analysis": {
+        "score": 62.1,
+        "amount": 75.0,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "10 条评论，竞争中等",
+          "有 17 个真人合并PR",
+          "3 天内有提交，项目活跃",
+          "需求描述详实",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "137",
+      "title": "Preserve explicit repository choice and title edits in the proposal router",
+      "url": "https://github.com/ubiquity/.github/issues/137",
+      "repo": "ubiquity/.github",
+      "repo_info": {
+        "full_name": "ubiquity/.github",
+        "stars": 3,
+        "forks": 18,
+        "open_issues": 4,
+        "created_at": "2022-11-10T09:27:18Z",
+        "pushed_at": "2026-11-16T23:56:00Z",
+        "archived": false,
+        "watchers": 2,
+        "size_kb": 890,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 17,
+        "human_merged_prs": 17,
+        "external_merged_prs": 17,
+        "contributors": 7
+      },
+      "labels": [
+        "Time: <1 Hour",
+        "Priority: 2 (Medium)",
+        "Price: 75 USD"
+      ],
+      "body_excerpt": "The proposal router forgets an explicit repository confirmation when the user re-picks the already auto-selected value, and it can overwrite a custom title typed while the catalog request is still in flight.\n\nPriority: P2 (Codex review severity, both findings).\nNative review evidence: review `org` (ubiquity/.github proposal composer) on vps, cwd `/home/codex/repos/ubiquity/.github`, reviewed base `12609d2488f2`, reviewed head `b314c3ba466faa19c4caf791a463e58192f065ec`, exit 0, session `01a0c9b4-",
+      "analysis": {
+        "score": 60.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 2 条评论",
+          "有 17 个真人合并PR",
+          "1 天内有提交，项目活跃",
+          "需求描述详实",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6255",
+      "title": "Preserve 502 for exchange transport failures",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6255",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/ai.ubq.fi/issues/1282",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 3 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6253",
+      "title": "Return 401 for rejected Passport exchange codes",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6253",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/ai.ubq.fi/issues/1281",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 3 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6239",
+      "title": "Honor no-transform and strip modern digest headers when rewriting HTML",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6239",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/ubq.fi-router/issues/37",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6230",
+      "title": "Multiple Matchmaking Comments",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6230",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/94",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6215",
+      "title": "Keep HTTP diagnostic Boolean parsing consistent for n",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6215",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/permit2-rpc-manager/issues/31",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6141",
+      "title": "Resolve the selected RPC when each request is made",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6141",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/stake.ubq.fi/issues/43",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6140",
+      "title": "Apply the health-check deadline to response decoding",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6140",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/stake.ubq.fi/issues/45",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 2 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6139",
+      "title": "Dismiss reverted-receipt toasts when the status clears",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6139",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/stake.ubq.fi/issues/44",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6021",
+      "title": "Honor no-transform and strip modern digest headers when rewriting HTML",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6021",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/ubq.fi-router/issues/37",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6019",
+      "title": "Preserve explicit repository choice and title edits in the proposal router",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6019",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 2 (Medium)",
+        "Price: 75 USD",
+        "Time: <1 Hour"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/.github/issues/137",
+      "analysis": {
+        "score": 50.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "6251",
+      "title": "New Proposal Router",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6251",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/.github/issues/123",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "仅 3 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "6246",
+      "title": "Generalized \"GitHub Webhook + Contributor Role -> Rewards\" With Config v3",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6246",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os/plugins-wishlist/issues/47",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "仅 2 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "6244",
+      "title": "Check dev experience on starting an issue",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6244",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os/plugins-wishlist/issues/26",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "仅 2 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "6221",
+      "title": "CI: fix `check_storage_layout` for new contracts",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6221",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/ubiquity-dollar/issues/972",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5874",
+      "title": "Integrate Wallet Connect via Reown AppKit",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5874",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/uusd.ubq.fi/issues/24",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "仅 3 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5845",
+      "title": "Formal verification",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5845",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/ubiquity-dollar/issues/926",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "仅 2 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5837",
+      "title": "premade configs that are hands-off for partners",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5837",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Price: 300 USD",
+        "Time: <4 Hours",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 240,
+        "reasons": [
+          "金额 $300",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 4 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5081",
+      "title": "E2E Smoke (Playwright) – Handoff",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5081",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Price: 300 USD",
+        "Time: <4 Hours",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/stake.ubq.fi/issues/4",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 240,
+        "reasons": [
+          "金额 $300",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 4 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5079",
+      "title": "Error Handling & Status Toasts – Handoff",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5079",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Price: 300 USD",
+        "Time: <4 Hours",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/stake.ubq.fi/issues/8",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 240,
+        "reasons": [
+          "金额 $300",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 4 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5039",
+      "title": "Generalized \"GitHub Webhook + Contributor Role -> Rewards\" No Config v1",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5039",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os/plugins-wishlist/issues/46",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "仅 3 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5027",
+      "title": "Check dev experience on starting an issue",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5027",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os/plugins-wishlist/issues/26",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "仅 3 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5018",
+      "title": "Improving Recommendations",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5018",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Price: 300 USD",
+        "Time: <4 Hours",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55",
+      "analysis": {
+        "score": 50.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 240,
+        "reasons": [
+          "金额 $300",
+          "仅 2 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 4 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "1282",
+      "title": "Preserve 502 for exchange transport failures",
+      "url": "https://github.com/ubiquity/ai.ubq.fi/issues/1282",
+      "repo": "ubiquity/ai.ubq.fi",
+      "repo_info": {
+        "full_name": "ubiquity/ai.ubq.fi",
+        "stars": 0,
+        "forks": 59,
+        "open_issues": 18,
+        "created_at": "2025-12-14T11:39:18Z",
+        "pushed_at": "2026-11-18T07:12:48Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 96911,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 72,
+        "human_merged_prs": 72,
+        "external_merged_prs": 72,
+        "contributors": 8
+      },
+      "labels": [
+        "Price: 75 USD",
+        "Time: <1 Hour",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "Asynchronous official review backlog, severity P2. This finding does not gate delivery under the repository review policy.\n\nReviewed head: `b1794261007f46f9d09c6e9a451f82ea5e974ffc`. Base: `7223352101f448dd2ad46e40e285e689a2788435`. Merged as [PR #1280](https://github.com/ubiquity/ai.ubq.fi/pull/1280), merge `31ba5a1562ce8edb74602ab4520cd600832c70e1`, with the same source tree.\n\nReview command: `codex -c 'review_model=\"codex-auto-review\"' review --commit b1794261007f46f9d09c6e9a451f82ea5e974ffc`",
+      "analysis": {
+        "score": 48.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "19 条评论，竞争激烈",
+          "近期有 72 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述详实",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "1281",
+      "title": "Return 401 for rejected Passport exchange codes",
+      "url": "https://github.com/ubiquity/ai.ubq.fi/issues/1281",
+      "repo": "ubiquity/ai.ubq.fi",
+      "repo_info": {
+        "full_name": "ubiquity/ai.ubq.fi",
+        "stars": 0,
+        "forks": 59,
+        "open_issues": 18,
+        "created_at": "2025-12-14T11:39:18Z",
+        "pushed_at": "2026-11-18T07:12:48Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 96911,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 72,
+        "human_merged_prs": 72,
+        "external_merged_prs": 72,
+        "contributors": 8
+      },
+      "labels": [
+        "Price: 75 USD",
+        "Time: <1 Hour",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "Asynchronous official review backlog, severity P2. This finding does not gate delivery under the repository review policy.\n\nReviewed head: `b1794261007f46f9d09c6e9a451f82ea5e974ffc`. Base: `7223352101f448dd2ad46e40e285e689a2788435`. Merged as [PR #1280](https://github.com/ubiquity/ai.ubq.fi/pull/1280), merge `31ba5a1562ce8edb74602ab4520cd600832c70e1`, with the same source tree.\n\nReview command: `codex -c 'review_model=\"codex-auto-review\"' review --commit b1794261007f46f9d09c6e9a451f82ea5e974ffc`",
+      "analysis": {
+        "score": 48.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "25 条评论，竞争激烈",
+          "近期有 72 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述详实",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "123",
+      "title": "New Proposal Router",
+      "url": "https://github.com/ubiquity/.github/issues/123",
+      "repo": "ubiquity/.github",
+      "repo_info": {
+        "full_name": "ubiquity/.github",
+        "stars": 3,
+        "forks": 18,
+        "open_issues": 4,
+        "created_at": "2022-11-10T09:27:18Z",
+        "pushed_at": "2026-11-16T23:56:00Z",
+        "archived": false,
+        "watchers": 2,
+        "size_kb": 890,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 17,
+        "human_merged_prs": 17,
+        "external_merged_prs": 17,
+        "contributors": 7
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Price: 300 USD",
+        "Priority: 1 (Normal)"
+      ],
+      "body_excerpt": "Using vector embeddings(?) we should make a simple UI that will allow us to create any new proposal and it will automatically route it to the correct repository. \n\nI envision something similar to the new issue ui: https://github.com/ubiquity/.github/issues/new\n\nBut the key difference is that we will have a dropdown of where to post the issue to across all of our orgs. It will intelligently hide and show what it thinks is relevant as the user starts typing out the specification, live. \n\nI imagine",
+      "analysis": {
+        "score": 42.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "22 条评论，竞争激烈",
+          "有 17 个真人合并PR",
+          "1 天内有提交，项目活跃",
+          "需求描述详实",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "6247",
+      "title": "Config Protection",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6247",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 1 (Normal)",
+        "Time: <2 Hours",
+        "Price: 75 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os/plugins-wishlist/issues/30",
+      "analysis": {
+        "score": 40.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 120,
+        "reasons": [
+          "金额 $75",
+          "仅 2 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 2 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "6243",
+      "title": "Self Invalidations",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6243",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 1 (Normal)",
+        "Time: <2 Hours",
+        "Price: 75 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/pay.ubq.fi/issues/455",
+      "analysis": {
+        "score": 40.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 120,
+        "reasons": [
+          "金额 $75",
+          "仅 2 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 2 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "6240",
+      "title": "Health Dashboard",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6240",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 1 (Normal)",
+        "Time: <2 Hours",
+        "Price: 75 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/ubq.fi-router/issues/3",
+      "analysis": {
+        "score": 40.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 120,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 2 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "6231",
+      "title": "Formal Deduplication",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6231",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 1 (Normal)",
+        "Time: <2 Hours",
+        "Price: 75 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/74",
+      "analysis": {
+        "score": 40.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 120,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 2 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "6220",
+      "title": "CI: fix failing `Diamond Storage Check`",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6220",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 1 (Normal)",
+        "Time: <2 Hours",
+        "Price: 75 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/ubiquity-dollar/issues/992",
+      "analysis": {
+        "score": 40.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 120,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 2 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "6142",
+      "title": "Pass transport factories to viem's fallback",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/6142",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Priority: 1 (Normal)",
+        "Time: <2 Hours",
+        "Price: 75 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/stake.ubq.fi/issues/42",
+      "analysis": {
+        "score": 40.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 120,
+        "reasons": [
+          "金额 $75",
+          "仅 1 条评论",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 2 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5927",
+      "title": "Generalized \"GitHub Webhook + Contributor Role -> Rewards\" With Config v3",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5927",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os/plugins-wishlist/issues/47",
+      "analysis": {
+        "score": 40.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "11 条评论，竞争中等",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5848",
+      "title": "CI: fix `check_storage_layout` for new contracts",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5848",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/ubiquity-dollar/issues/972",
+      "analysis": {
+        "score": 40.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "9 条评论，竞争中等",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5840",
+      "title": "New Proposal Router",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5840",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity/.github/issues/123",
+      "analysis": {
+        "score": 40.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "7 条评论，竞争中等",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5043",
+      "title": "Callbacks - event handlers and hybrid plugins",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5043",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os/ubiquity-os-kernel/issues/261",
+      "analysis": {
+        "score": 40.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "4 条评论，竞争中等",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "5045",
+      "title": "Generalized \"GitHub Webhook + Contributor Role -> Rewards\" Contributor Class v2",
+      "url": "https://github.com/devpool-directory/devpool-directory/issues/5045",
+      "repo": "devpool-directory/devpool-directory",
+      "repo_info": {
+        "full_name": "devpool-directory/devpool-directory",
+        "stars": 20,
+        "forks": 49,
+        "open_issues": 146,
+        "created_at": "2023-04-14T11:31:23Z",
+        "pushed_at": "2026-11-18T03:33:57Z",
+        "archived": false,
+        "watchers": 6,
+        "size_kb": 67344,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 53,
+        "human_merged_prs": 53,
+        "external_merged_prs": 53,
+        "contributors": 21
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 1 (Normal)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "https://github.com/ubiquity-os/plugins-wishlist/issues/48",
+      "analysis": {
+        "score": 40.0,
+        "amount": 300.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "4 条评论，竞争中等",
+          "近期有 53 个真人合并PR，仓库真实运作",
+          "0 天内有提交，项目活跃",
+          "需求描述过于单薄",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "44",
+      "title": "Dismiss reverted-receipt toasts when the status clears",
+      "url": "https://github.com/ubiquity/stake.ubq.fi/issues/44",
+      "repo": "ubiquity/stake.ubq.fi",
+      "repo_info": {
+        "full_name": "ubiquity/stake.ubq.fi",
+        "stars": 1,
+        "forks": 26,
+        "open_issues": 13,
+        "created_at": "2025-09-03T16:52:42Z",
+        "pushed_at": "2026-11-16T23:48:48Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 568,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 5,
+        "human_merged_prs": 5,
+        "external_merged_prs": 5,
+        "contributors": 4
+      },
+      "labels": [
+        "Price: 75 USD",
+        "Time: <1 Hour",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "## Summary\nA reverted transaction reported on the success channel creates a persistent error toast. The bridge dismisses that toast only when the success message changes, so clearing the status (which happens before every staking action and on wallet changes) leaves the stale revert visible while the channel is empty and the next transaction is pending.\n\n## Trigger\nTrigger a reverted transaction, then start another staking action so the status channel is cleared; the previous revert toast remain",
+      "analysis": {
+        "score": 38.1,
+        "amount": 75.0,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "6 条评论，竞争中等",
+          "有 5 个真人合并PR",
+          "🚨 刷量/农场特征：零关注者、fork/star=26/1 异常",
+          "1 天内有提交，项目活跃",
+          "需求描述详实",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "43",
+      "title": "Resolve the selected RPC when each request is made",
+      "url": "https://github.com/ubiquity/stake.ubq.fi/issues/43",
+      "repo": "ubiquity/stake.ubq.fi",
+      "repo_info": {
+        "full_name": "ubiquity/stake.ubq.fi",
+        "stars": 1,
+        "forks": 26,
+        "open_issues": 13,
+        "created_at": "2025-09-03T16:52:42Z",
+        "pushed_at": "2026-11-16T23:48:48Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 568,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 5,
+        "human_merged_prs": 5,
+        "external_merged_prs": 5,
+        "contributors": 4
+      },
+      "labels": [
+        "Price: 75 USD",
+        "Time: <1 Hour",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "## Summary\nThe runtime-selected RPC base URL is read inside the transport factory that viem calls once per client, and wagmi memoizes that client. Because the app renders before the health probe finishes, an already-created client keeps its original endpoint after the probe selects a fallback and continues hitting the slow or wrong-chain primary.\n\n## Trigger\nLoad the app with a failing primary RPC; after the probe resolves a fallback, the wallet client still requests the original endpoint.\n\n## E",
+      "analysis": {
+        "score": 38.1,
+        "amount": 75.0,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "7 条评论，竞争中等",
+          "有 5 个真人合并PR",
+          "🚨 刷量/农场特征：零关注者、fork/star=26/1 异常",
+          "1 天内有提交，项目活跃",
+          "需求描述详实",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "37",
+      "title": "Honor no-transform and strip modern digest headers when rewriting HTML",
+      "url": "https://github.com/ubiquity/ubq.fi-router/issues/37",
+      "repo": "ubiquity/ubq.fi-router",
+      "repo_info": {
+        "full_name": "ubiquity/ubq.fi-router",
+        "stars": 1,
+        "forks": 23,
+        "open_issues": 1,
+        "created_at": "2025-06-18T08:58:46Z",
+        "pushed_at": "2026-11-13T10:29:50Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 377,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 21,
+        "human_merged_prs": 21,
+        "external_merged_prs": 21,
+        "contributors": 2
+      },
+      "labels": [
+        "Price: 75 USD",
+        "Time: <1 Hour",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "The HTML revision decorator rewrites responses that upstream marked `Cache-Control: no-transform` (request or response directive), and it leaves modern `Content-Digest` and `Repr-Digest` headers intact, so rewritten HTML is delivered with hashes of the original representation.\n\nPriority: P2 (Codex review severity, both findings).\nNative review evidence: review `router` (ubq.fi-router) on vps, cwd `/home/codex/repos/ubiquity/ubq.fi-router`, reviewed base `91bebfb78f2b`, reviewed head `06748e4f494",
+      "analysis": {
+        "score": 32.1,
+        "amount": 75.0,
+        "rail": "ubq_crypto",
+        "rail_note": "Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险",
+        "cn_payout_possible": false,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "9 条评论，竞争中等",
+          "近期有 21 个真人合并PR，仓库真实运作",
+          "🚨 刷量/农场特征：零关注者、fork/star=23/1 异常",
+          "4 天内有提交，项目活跃",
+          "需求描述详实",
+          "⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "45",
+      "title": "Apply the health-check deadline to response decoding",
+      "url": "https://github.com/ubiquity/stake.ubq.fi/issues/45",
+      "repo": "ubiquity/stake.ubq.fi",
+      "repo_info": {
+        "full_name": "ubiquity/stake.ubq.fi",
+        "stars": 1,
+        "forks": 26,
+        "open_issues": 13,
+        "created_at": "2025-09-03T16:52:42Z",
+        "pushed_at": "2026-11-16T23:48:48Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 568,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 5,
+        "human_merged_prs": 5,
+        "external_merged_prs": 5,
+        "contributors": 4
+      },
+      "labels": [
+        "Price: 75 USD",
+        "Time: <1 Hour",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "## Summary\nThe health check races only receipt of the response headers against its deadline. For a supported injected fetcher that ignores abort and returns headers but never finishes the body, the await on `response.json()` can hang forever, so the health check and the runtime initializer never move to the next candidate.\n\n## Trigger\nUse an injected fetcher that resolves with headers and a never-ending body; the health probe remains pending past its deadline.\n\n## Evidence (source-only)\n- `src/u",
+      "analysis": {
+        "score": 30.1,
+        "amount": 75.0,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "优",
+        "time_budget_min": 60,
+        "reasons": [
+          "金额 $75",
+          "14 条评论，竞争激烈",
+          "有 5 个真人合并PR",
+          "🚨 刷量/农场特征：零关注者、fork/star=26/1 异常",
+          "1 天内有提交，项目活跃",
+          "需求描述详实",
+          "🤖 标注 60 分钟内可完成，适合挂机"
+        ]
+      }
+    },
+    {
+      "number": "42",
+      "title": "Pass transport factories to viem's fallback",
+      "url": "https://github.com/ubiquity/stake.ubq.fi/issues/42",
+      "repo": "ubiquity/stake.ubq.fi",
+      "repo_info": {
+        "full_name": "ubiquity/stake.ubq.fi",
+        "stars": 1,
+        "forks": 26,
+        "open_issues": 13,
+        "created_at": "2025-09-03T16:52:42Z",
+        "pushed_at": "2026-11-16T23:48:48Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 568,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 5,
+        "human_merged_prs": 5,
+        "external_merged_prs": 5,
+        "contributors": 4
+      },
+      "labels": [
+        "Price: 75 USD",
+        "Time: <2 Hours",
+        "Priority: 1 (Normal)"
+      ],
+      "body_excerpt": "## Summary\n`dynamicRpcTransport` calls each transport with its parameters before handing the results to viem's `fallback`, so the array contains initialized transport results rather than transport factories. viem invokes each entry as a function while building the fallback client, which throws before any request is sent.\n\n## Trigger\nRun the app with differing primary and fallback RPC URLs (the default production `/rpc` plus public fallbacks); pool reads and public-client creation fail with `Type",
+      "analysis": {
+        "score": 28.1,
+        "amount": 75.0,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "中",
+        "time_budget_min": 120,
+        "reasons": [
+          "金额 $75",
+          "11 条评论，竞争中等",
+          "有 5 个真人合并PR",
+          "🚨 刷量/农场特征：零关注者、fork/star=26/1 异常",
+          "1 天内有提交，项目活跃",
+          "需求描述详实",
+          "🤖 标注 2 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "101",
+      "title": "E2E Start Command XP Gate 2025-10-16T14:25:27.218Z",
+      "url": "https://github.com/Meniole/command-start-stop/issues/101",
+      "repo": "Meniole/command-start-stop",
+      "repo_info": {
+        "full_name": "Meniole/command-start-stop",
+        "stars": 0,
+        "forks": 2,
+        "open_issues": 52,
+        "created_at": "2024-06-12T09:40:01Z",
+        "pushed_at": "2026-04-17T13:55:42Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 11417,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 7,
+        "human_merged_prs": 7,
+        "external_merged_prs": 7,
+        "contributors": 19
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 3 (High)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "Automated E2E issue for start command XP gating checks.",
+      "analysis": {
+        "score": 26.0,
+        "amount": 300.0,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "8 条评论，竞争中等",
+          "有 7 个真人合并PR",
+          "已 214 天无提交，项目停滞",
+          "需求描述过于单薄",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "100",
+      "title": "E2E Start Command XP Gate 2025-10-16T04:25:10.328Z",
+      "url": "https://github.com/Meniole/command-start-stop/issues/100",
+      "repo": "Meniole/command-start-stop",
+      "repo_info": {
+        "full_name": "Meniole/command-start-stop",
+        "stars": 0,
+        "forks": 2,
+        "open_issues": 52,
+        "created_at": "2024-06-12T09:40:01Z",
+        "pushed_at": "2026-04-17T13:55:42Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 11417,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 7,
+        "human_merged_prs": 7,
+        "external_merged_prs": 7,
+        "contributors": 19
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 3 (High)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "Automated E2E issue for start command XP gating checks.",
+      "analysis": {
+        "score": 26.0,
+        "amount": 300.0,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "7 条评论，竞争中等",
+          "有 7 个真人合并PR",
+          "已 214 天无提交，项目停滞",
+          "需求描述过于单薄",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "20",
+      "title": "Design tokens and theme polish",
+      "url": "https://github.com/0x4007/os.ubq.fi/issues/20",
+      "repo": "0x4007/os.ubq.fi",
+      "repo_info": {
+        "full_name": "0x4007/os.ubq.fi",
+        "stars": 0,
+        "forks": 12,
+        "open_issues": 42,
+        "created_at": "2025-10-13T08:23:41Z",
+        "pushed_at": "2025-10-17T21:34:56Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 252,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 4,
+        "human_merged_prs": 4,
+        "external_merged_prs": 0,
+        "contributors": 1
+      },
+      "labels": [
+        "Price: 300 USD",
+        "Time: <4 Hours",
+        "Priority: 2 (Medium)"
+      ],
+      "body_excerpt": "Add spacing/type/radius tokens; refactor CSS; add light theme toggle (persisted).\n\nAcceptance:\n- Visual consistency; theme switch no regressions.\n\nFiles:\n- public/styles.css:1\n- src/web/app.ts:1\n",
+      "analysis": {
+        "score": 18.0,
+        "amount": 300.0,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "中",
+        "time_budget_min": 240,
+        "reasons": [
+          "金额 $300",
+          "仅 3 条评论",
+          "有 4 个真人合并PR",
+          "🚨 刷量/农场特征：贡献者仅1人、零关注者",
+          "已 396 天无提交，项目停滞",
+          "🤖 标注 4 小时内可完成"
+        ]
+      }
+    },
+    {
+      "number": "103",
+      "title": "E2E Start Command XP Gate 2025-10-16T17:17:06.801Z",
+      "url": "https://github.com/Meniole/command-start-stop/issues/103",
+      "repo": "Meniole/command-start-stop",
+      "repo_info": {
+        "full_name": "Meniole/command-start-stop",
+        "stars": 0,
+        "forks": 2,
+        "open_issues": 52,
+        "created_at": "2024-06-12T09:40:01Z",
+        "pushed_at": "2026-04-17T13:55:42Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 11417,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 7,
+        "human_merged_prs": 7,
+        "external_merged_prs": 7,
+        "contributors": 19
+      },
+      "labels": [
+        "Time: <1 Day",
+        "Priority: 3 (High)",
+        "Price: 300 USD"
+      ],
+      "body_excerpt": "Automated E2E issue for start command XP gating checks.",
+      "analysis": {
+        "score": 8.0,
+        "amount": 300.0,
+        "rail": "unknown",
+        "rail_note": "通道未知，需人工确认",
+        "cn_payout_possible": null,
+        "auto_fit": "中",
+        "time_budget_min": 1440,
+        "reasons": [
+          "金额 $300",
+          "86 条评论，大概率已被抢",
+          "有 7 个真人合并PR",
+          "已 214 天无提交，项目停滞",
+          "需求描述过于单薄",
+          "🤖 标注 24 小时内可完成"
+        ]
+      }
+    }
+  ],
+  "opire": [
+    {
+      "title": "c1work",
+      "url": "https://github.com/rodrigompy/bugb/issues/1",
+      "repo": "rodrigompy/bugb",
+      "amount": 100.0,
+      "trying_users": 0,
+      "claimer_users": 0,
+      "languages": [],
+      "repo_info": {
+        "full_name": "rodrigompy/bugb",
+        "stars": 0,
+        "forks": 5,
+        "open_issues": 0,
+        "created_at": "2026-05-31T02:22:24Z",
+        "pushed_at": "2026-05-31T03:37:40Z",
+        "archived": true,
+        "watchers": 0,
+        "size_kb": 11,
+        "license": null,
+        "closed_bounties": null,
+        "merged_prs": 0,
+        "human_merged_prs": 0,
+        "external_merged_prs": 0,
+        "contributors": 1
+      },
+      "rail": "opire_crypto"
+    },
+    {
+      "title": "research implementation for Windows",
+      "url": "https://github.com/radumarias/rencfs/issues/3",
+      "repo": "radumarias/rencfs",
+      "amount": 42.0,
+      "trying_users": 0,
+      "claimer_users": 0,
+      "languages": [
+        "Rust"
+      ],
+      "repo_info": {
+        "full_name": "radumarias/rencfs",
+        "stars": 4,
+        "forks": 63,
+        "open_issues": 49,
+        "created_at": "2024-12-21T05:37:02Z",
+        "pushed_at": "2024-12-21T04:34:32Z",
+        "archived": false,
+        "watchers": 0,
+        "size_kb": 3097,
+        "license": "Apache-2.0",
+        "closed_bounties": null,
+        "merged_prs": 0,
+        "human_merged_prs": 0,
+        "external_merged_prs": 0,
+        "contributors": 17
+      },
+      "rail": "opire_crypto"
+    },
+    {
+      "title": "500 Server Error - Auto Solve hcapcha",
+      "url": "https://github.com/flowese/UdioWrapper/issues/7",
+      "repo": "flowese/UdioWrapper",
+      "amount": 20.0,
+      "trying_users": 45,
+      "claimer_users": 30,
+      "languages": [
+        "Python"
+      ],
+      "repo_info": {
+        "full_name": "flowese/UdioWrapper",
+        "stars": 183,
+        "forks": 84,
+        "open_issues": 43,
+        "created_at": "2024-04-12T16:10:59Z",
+        "pushed_at": "2024-07-22T17:47:47Z",
+        "archived": false,
+        "watchers": 5,
+        "size_kb": 2484,
+        "license": "MIT",
+        "closed_bounties": null,
+        "merged_prs": 0,
+        "human_merged_prs": 0,
+        "external_merged_prs": 0,
+        "contributors": 1
+      },
+      "rail": "opire_crypto"
+    }
+  ],
+  "signals": [
+    {
+      "title": "[ux] Plain-language review of the texts in \"Mis pagos y recibos\"",
+      "url": "https://github.com/Open-Hub-Tec/yucu-protocol/issues/300",
+      "repo": "Open-Hub-Tec/yucu-protocol",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "drips-eligible",
+        "elder-inclusion",
+        "complejidad: trivial",
+        "open-to-all",
+        "Stellar Wave"
+      ],
+      "comments": 0,
+      "body_excerpt": "> **Complexity:** Trivial (100 points in the Stellar Wave) · **No code changes**\n\n## Context\n\nYucu is used by artisans and producers of the Mixteca, many of them older people with little digital experience. [`AGENTS.md`](https://github.com/Open-Hub-Tec/yucu-protocol/blob/main/AGENTS.md) asks for sho"
+    },
+    {
+      "title": "Add missing problem info to solutions with no description - no code needed",
+      "url": "https://github.com/Huerte/algo-solutions-python/issues/300",
+      "repo": "Huerte/algo-solutions-python",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "good first issue",
+        "beginner-friendly",
+        "no-code-needed",
+        "5-minutes",
+        "python",
+        "algorithm",
+        "easy",
+        "first-timers-only",
+        "any-language",
+        "community",
+        "learning",
+        "open-source",
+        "students",
+        "all-levels"
+      ],
+      "comments": 0,
+      "body_excerpt": "## You don't have to write code to contribute\n\nSome solutions have no information at all: no problem name, no description, no link. Help the next learner know what they are looking at.\n\n**Time:** ~5 minutes | **Skills needed:** Reading + writing\n\n### Task\n- [ ] Pick any file in `solutions/python/` t"
+    },
+    {
+      "title": "Filiation page: companion document path is stale",
+      "url": "https://github.com/saucisson/layered-data/issues/300",
+      "repo": "saucisson/layered-data",
+      "labels": [
+        "documentation",
+        "site-review",
+        "area:content"
+      ],
+      "comments": 0,
+      "body_excerpt": "src/pages/FiliationPage.tsx intro: \"The companion document is docs/filiation.md, in the repository\" — the file has been archived to docs/archive/filiation.md.\n\nFix: correct the path in the page (or drop the mention)."
+    },
+    {
+      "title": "Desain ekosistem progres persisten & ekonomi Lembah Berdua (Ladang–Kafe–Rumah)",
+      "url": "https://github.com/oskhar/Soforia/issues/63",
+      "repo": "oskhar/Soforia",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "ide-game",
+        "kooperatif",
+        "eksperimental"
+      ],
+      "comments": 2,
+      "body_excerpt": "# Desain: Progres Persisten & Ekonomi Lembah Berdua\n\n> **Issue payung untuk bahan pengembangan.** Dokumen sumber: [docs/26-ekosistem-progres-persisten.md](https://github.com/oskhar/Soforia/blob/master/docs/26-ekosistem-progres-persisten.md). Status: **usulan desain, belum diimplementasikan**; tidak "
+    },
+    {
+      "title": "Roadmap",
+      "url": "https://github.com/bberka/TabLodge/issues/300",
+      "repo": "bberka/TabLodge",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "The order work happens in, easiest first. Each item links to its issue, and decisions live on the issue. Agents: read this first, then the issue.\n\n**Rules for every feature.** It ships fully in both the extension and the Android app, and each app works on its own without a server or the other app. O"
+    },
+    {
+      "title": "\"[P3][文档/矛盾] README 称“应用包名尚未变更”，但 applicationId 已统一为 com.nodeman24.nowave\"",
+      "url": "https://github.com/BrainEno/flutter-blog/issues/300",
+      "repo": "BrainEno/flutter-blog",
+      "labels": [
+        "bug",
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "> 来自代码库评审 · 编号 F-013 · 严重程度 P3 · 类别：文档 · 类型：Bug · 置信度：已确认（矛盾存在）/ 待确认（作者本意） · 工作量 S\n\n## 证据\n- `README.md:27`：“……这是逐步迭代，并非所有页面均已统一或与网页逐像素相同；应用包名和启动图标尚未变更。”\n- `README.md:12-17`（同文件更早处）：“发布身份统一为 `com.nodeman24.nowave`（0.2.0 起）”。\n- 代码：`android/app/build.gradle.kts:15,32` `namespace`/`applicationId = \"com."
+    },
+    {
+      "title": "docs(mpp): audit MppError::InvalidCredential's doc comment against every place it's returned",
+      "url": "https://github.com/sorocharge/sorocharge-core/issues/300",
+      "repo": "sorocharge/sorocharge-core",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "low"
+      ],
+      "comments": 0,
+      "body_excerpt": "<!-- wave-backlog: low / 100 points / area:mpp -->\n\n## Summary\nInvalidCredential's own doc comment on the MppError enum in crates/sorocharge-mpp/src/error.rs describes one specific condition. Find every call site across the crate that returns this variant and confirm each one genuinely matches that "
+    },
+    {
+      "title": "[TA Feedback][SRS] Justify numerical performance and reliability targets",
+      "url": "https://github.com/SoftwareMandems/FPVR/issues/300",
+      "repo": "SoftwareMandems/FPVR",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "Feedback from the TA-marked **SRS-Main** rubric, **Rationale**, scored **2 / 3**.\n\n**TA feedback**\n\n> Rationale is provided for most requirements, but numerical targets need more justification. Why were 72 FPS, 100 ms, and 20 recovery cycles chosen? Identifying these as provisional is useful, but ex"
+    },
+    {
+      "title": "docs: self-hosting on a single VPS with Docker Compose and Caddy",
+      "url": "https://github.com/Godgift-care/sci-healthcare-backend/issues/300",
+      "repo": "Godgift-care/sci-healthcare-backend",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "trivial",
+        "backend"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Summary\n\nThere is no guide for running the stack on a plain server.\n\n## Context\n\n`docker-compose.yml`, `docs/RUNBOOK.md`.\n\n## Why it matters\n\nA small VPS is the cheapest reliable way to run the indexer continuously.\n\n## Suggested implementation\n\n1. Add a production compose file with Postgres, the"
+    },
+    {
+      "title": "Add tested Composer task recipes for small Phel programs",
+      "url": "https://github.com/phel-lang/phel-lang.org/issues/300",
+      "repo": "phel-lang/phel-lang.org",
+      "labels": [
+        "documentation",
+        "content"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Outcome\n\nA PHP developer can use Phel for an everyday project task through Composer, including arguments, streams and failure status.\n\n## Acceptance scenario\n\nFrom a fresh Composer project, run a named Composer script that invokes a Phel JSON transformation, passes user arguments, reads stdin, wr"
+    },
+    {
+      "title": "research: MCP teaching server that embeds OxDock docs for agents",
+      "url": "https://github.com/jzombie/rust-oxdock/issues/300",
+      "repo": "jzombie/rust-oxdock",
+      "labels": [
+        "documentation",
+        "needs research"
+      ],
+      "comments": 2,
+      "body_excerpt": "## Goal\n\nAn MCP server whose job is teaching agents how to use OxDock: structured access to the language knowledge (commands, functions, value types, guards, scoping, runnable examples) instead of hoping the agent assembles it from raw files. Related but distinct from #153 (which serves script funct"
+    },
+    {
+      "title": "The website's front page says what Settee is and how to get it",
+      "url": "https://github.com/neutraltone/settee/issues/300",
+      "repo": "neutraltone/settee",
+      "labels": [
+        "documentation",
+        "needs-triage"
+      ],
+      "comments": 0,
+      "body_excerpt": "Part of #283.\n\nBuild the marketing front at `site/app/pages/index.vue`, in Vue and Tailwind with Settee's theme. One page, adapted from `README.md` (it's been checked against what the app does today), not invented:\n\n1. Headline and the Live TV screenshot.\n2. What it does: watching, recording, sync, "
+    },
+    {
+      "title": "User guide: CREATE SCRIPT statements fail in DbVisualizer without block delimiters",
+      "url": "https://github.com/exasol/kafka-connector-extension/issues/300",
+      "repo": "exasol/kafka-connector-extension",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Problem\n\nThe user guide's `CREATE OR REPLACE JAVA SET SCRIPT … AS %scriptclass …; %jar …; /` statements fail when run in DbVisualizer (and other clients that split statements at `;`). The client sends the `%jar …;` line as a separate statement and Exasol answers:\n\n```\nsyntax error, unexpected inv"
+    },
+    {
+      "title": "docs: there's no guide for the people who write in the admin",
+      "url": "https://github.com/tachyon-cms/tachyoncms/issues/300",
+      "repo": "tachyon-cms/tachyoncms",
+      "labels": [
+        "documentation",
+        "area/docs",
+        "writers wanted"
+      ],
+      "comments": 0,
+      "body_excerpt": "Every docs page so far is for developers. The person who publishes the Tuesday newsletter needs one page that says how to write a post, add an image, save a draft, publish, and get back something they deleted, with screenshots.\n\n## What it should do\n\nA plain-language guide for editors:\n\n- Signing in"
+    },
+    {
+      "title": "[docs] \"Coming from SQL/PGQ or DuckPGQ\": docs, the agent skill, and errors that point to the standard form",
+      "url": "https://github.com/cldixon/ursa/issues/300",
+      "repo": "cldixon/ursa",
+      "labels": [
+        "documentation"
+      ],
+      "comments": 0,
+      "body_excerpt": "Part of #294. Design: Tempra `cl_dixon/ursa`, `/sql/pgq-compatibility.md`, plan item 6.\n\n## Scope\n\n- **A docs page, \"Coming from SQL/PGQ or DuckPGQ\"** (`docs/sql/`):\n  - what runs unchanged;\n  - what differs, side by side;\n  - which features are Ursa extensions;\n  - every known numeric difference fr"
+    },
+    {
+      "title": "Plan the open-source launch on Show HN, r/selfhosted, and r/SideProject",
+      "url": "https://github.com/eddiejaoude/StackDash/issues/146",
+      "repo": "eddiejaoude/StackDash",
+      "labels": [
+        "documentation",
+        "priority: P1",
+        "size: S",
+        "impact: high",
+        "area: docs"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Summary\n\nPlan and run the open-source launch where the audience already is, with the demo and the badges ready before posting. Evidence from the research: Uptime Kuma launched on r/selfhosted as \"a fancy alternative to UptimeRobot\"; PostHog's Show HN produced about 300 deployments in days; the \"f"
+    },
+    {
+      "title": "observability: the certificate-renewal row says every deploy restores a deleted validation record, which sst deploy doesn't",
+      "url": "https://github.com/yedeya/plinthos/issues/300",
+      "repo": "yedeya/plinthos",
+      "labels": [
+        "documentation",
+        "agent:reviewer",
+        "sev:low",
+        "follow-up",
+        "project:293"
+      ],
+      "comments": 0,
+      "body_excerpt": "**Reviewer** <!-- kanon:role=reviewer -->\n\n## What is wrong\n\n`docs/observability.md`'s new not-paged row `domain.certificate.renewal` (added by PR #299) says ACM renews the admin's certificate \"while the distribution uses it and its validation record is still in the hosted zone, **and every deploy p"
+    },
+    {
+      "title": "Release hygiene: Zenodo DOI per release; tag and publish ontospan, pin its version",
+      "url": "https://github.com/phentrieve/ontotator/issues/300",
+      "repo": "phentrieve/ontotator",
+      "labels": [
+        "documentation",
+        "P2"
+      ],
+      "comments": 1,
+      "body_excerpt": "Several things a journal reviewer or new user will trip over:\n\n- `README.md:15` says the project is in early development and has no tagged releases, while v0.1.0 to v0.8.1 are tagged and the CHANGELOG follows SemVer.\n- No `CITATION.cff` and no `.zenodo.json`; releases are not archived with a DOI.\n- "
+    },
+    {
+      "title": "docs(diagrams): update architecture and runtime visuals for request lifecycle",
+      "url": "https://github.com/yeongseon/azure-app-service-practical-guide/issues/300",
+      "repo": "yeongseon/azure-app-service-practical-guide",
+      "labels": [
+        "documentation",
+        "priority:high",
+        "size: S"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Context\nOne executable child of #284 and migration epic #281. The merged #282 manifest is the scope authority (baseline `036376dff4e4c2e919470b51a1cb89ef708d88ea`); the current manifest records **2** allocated in-scope Mermaid occurrence(s). This is an S/M-size, independently reviewable documenta"
+    },
+    {
+      "title": "Build a concise generated user-facing Woge documentation site",
+      "url": "https://github.com/christian-draeger/woge/issues/300",
+      "repo": "christian-draeger/woge",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "area: ai-dx",
+        "area: ui-system"
+      ],
+      "comments": 0,
+      "body_excerpt": "## Outcome\n\nGive humans a polished, short and automatically built documentation website that explains how to use Woge, its idea and demonstrable strengths. Start from user tasks and visible web behavior; link deeper contracts and agent support without making framework internals the primary reading p"
+    }
+  ]
+}
