@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-19T12:53:51+00:00
-- 扫描耗时：132.8 秒
+- 生成时间：2026-11-19T23:02:04+00:00
+- 扫描耗时：129.8 秒
 - GitHub 赏金候选：**0** 条
 - 真实付费赏金池：**46** 条
 - Opire 平台赏金：**3** 条
@@ -23,17 +23,9 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；10 条评论，竞争中等；有 17 个真人合并PR；4 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；11 条评论，竞争中等；有 17 个真人合并PR；4 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
-### P2. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/ubiquity/.github/issues/137)
-
-- 评分 **60.1/100** ｜ $75 ｜ `ubiquity/.github`
-- 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
-- 大陆可收款：⛔ 否
-- 标签：Time: <1 Hour, Priority: 2 (Medium), Price: 75 USD
-- 判断依据：金额 $75；仅 2 条评论；有 17 个真人合并PR；2 天内有提交，项目活跃；需求描述详实；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
-
-### P3. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6239)
+### P2. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6239)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -41,7 +33,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 54 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P4. [Multiple Matchmaking Comments](https://github.com/devpool-directory/devpool-directory/issues/6230)
+### P3. [Multiple Matchmaking Comments](https://github.com/devpool-directory/devpool-directory/issues/6230)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -49,7 +41,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 54 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P5. [Keep HTTP diagnostic Boolean parsing consistent for n](https://github.com/devpool-directory/devpool-directory/issues/6215)
+### P4. [Keep HTTP diagnostic Boolean parsing consistent for n](https://github.com/devpool-directory/devpool-directory/issues/6215)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -57,7 +49,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 54 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P6. [Resolve the selected RPC when each request is made](https://github.com/devpool-directory/devpool-directory/issues/6141)
+### P5. [Resolve the selected RPC when each request is made](https://github.com/devpool-directory/devpool-directory/issues/6141)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -65,7 +57,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 54 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P7. [Apply the health-check deadline to response decoding](https://github.com/devpool-directory/devpool-directory/issues/6140)
+### P6. [Apply the health-check deadline to response decoding](https://github.com/devpool-directory/devpool-directory/issues/6140)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -73,7 +65,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 2 条评论；近期有 54 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P8. [Dismiss reverted-receipt toasts when the status clears](https://github.com/devpool-directory/devpool-directory/issues/6139)
+### P7. [Dismiss reverted-receipt toasts when the status clears](https://github.com/devpool-directory/devpool-directory/issues/6139)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -81,7 +73,7 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 54 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P9. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6021)
+### P8. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6021)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
@@ -89,13 +81,21 @@
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 54 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
-### P10. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/devpool-directory/devpool-directory/issues/6019)
+### P9. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/devpool-directory/devpool-directory/issues/6019)
 
 - 评分 **50.1/100** ｜ $75 ｜ `devpool-directory/devpool-directory`
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
 - 判断依据：金额 $75；仅 1 条评论；近期有 54 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+
+### P10. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/ubiquity/.github/issues/137)
+
+- 评分 **50.1/100** ｜ $75 ｜ `ubiquity/.github`
+- 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
+- 大陆可收款：⛔ 否
+- 标签：Time: <1 Hour, Priority: 2 (Medium), Price: 75 USD
+- 判断依据：金额 $75；4 条评论，竞争中等；有 17 个真人合并PR；2 天内有提交，项目活跃；需求描述详实；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P11. [New Proposal Router](https://github.com/devpool-directory/devpool-directory/issues/6251)
 
@@ -143,7 +143,7 @@
   - https://github.com/rodrigompy/bugb/issues/1
 - **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
   - https://github.com/radumarias/rencfs/issues/3
-- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 30 人 ｜ 尝试中 45 人
+- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 30 人 ｜ 尝试中 46 人
   - https://github.com/flowese/UdioWrapper/issues/7
 
 ## 四、需求信号（自建数字产品的选题来源）
