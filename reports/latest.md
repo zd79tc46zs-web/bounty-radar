@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-19T23:02:04+00:00
-- 扫描耗时：129.8 秒
+- 生成时间：2026-11-20T07:02:09+00:00
+- 扫描耗时：131.8 秒
 - GitHub 赏金候选：**0** 条
 - 真实付费赏金池：**46** 条
 - Opire 平台赏金：**3** 条
@@ -23,7 +23,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；11 条评论，竞争中等；有 17 个真人合并PR；4 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；11 条评论，竞争中等；有 17 个真人合并PR；5 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6239)
 
@@ -95,7 +95,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Hour, Priority: 2 (Medium), Price: 75 USD
-- 判断依据：金额 $75；4 条评论，竞争中等；有 17 个真人合并PR；2 天内有提交，项目活跃；需求描述详实；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；4 条评论，竞争中等；有 17 个真人合并PR；3 天内有提交，项目活跃；需求描述详实；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P11. [New Proposal Router](https://github.com/devpool-directory/devpool-directory/issues/6251)
 
