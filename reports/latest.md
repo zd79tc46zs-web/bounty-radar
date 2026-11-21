@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-21T01:25:35+00:00
-- 扫描耗时：129.1 秒
-- GitHub 赏金候选：**0** 条
+- 生成时间：2026-11-21T12:32:11+00:00
+- 扫描耗时：137.0 秒
+- GitHub 赏金候选：**1** 条
 - 真实付费赏金池：**46** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,7 +11,14 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-> 本轮未发现符合条件的高价值候选。
+### 1. [bounty: implement deterministic LLM behavioral guardrails and policy enforcement engine for automated responses](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
+
+- **可信度评分**：60.0/100 ｜ 仓库：`riteshbonthalakoti/HELPDESK.AI`
+- **结算通道**：`unknown` — 通道未知，需人工确认
+- **大陆可收款**：❓ 需确认
+- 仓库信号：★187 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-20T07:11:23Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 27 个真人合并PR，仓库真实运作；1 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
+
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
 > 这批来自实测确认**真实付过款**的仓库（Ubiquity/DevPool 生态）。
@@ -23,7 +30,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；11 条评论，竞争中等；有 17 个真人合并PR；5 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；11 条评论，竞争中等；有 17 个真人合并PR；6 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6239)
 
@@ -150,30 +157,30 @@
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
+- Refine the product strategy and launch plan before the first release — `syntaxir/zp` (2 评论)
+  - https://github.com/syntaxir/zp/issues/309
+- Inbox README: update the routed-source list — `an0n-b1nary/evennia-contribs-staging` (0 评论)
+  - https://github.com/an0n-b1nary/evennia-contribs-staging/issues/300
+- [OIT-015][Low] SECURITY.md names a personal Gmail as the vulnerability contact — `amar-python/PostgreDataMigrationAppWithCSVLoader` (1 评论)
+  - https://github.com/amar-python/PostgreDataMigrationAppWithCSVLoader/issues/300
+- 參考 Anthropic document-skills（docx／pptx／xlsx／pdf）：OOXML 驗證器、pptxgenjs 陷阱、結構化簡報 — `PsychQuant/macdoc` (0 评论)
+  - https://github.com/PsychQuant/macdoc/issues/300
+- docs: update user guide and skills for konductor metrics after #207 — `aws-solutions/konductor` (0 评论)
+  - https://github.com/aws-solutions/konductor/issues/300
+- [Docs] Use the Vault Build Target Shown by the Deployment Artifact — `dev-kiki0/kikis-app` (0 评论)
+  - https://github.com/dev-kiki0/kikis-app/issues/300
 - [ux] Plain-language review of the texts in "Mis pagos y recibos" — `Open-Hub-Tec/yucu-protocol` (0 评论)
   - https://github.com/Open-Hub-Tec/yucu-protocol/issues/300
-- Add missing problem info to solutions with no description - no code needed — `Huerte/algo-solutions-python` (0 评论)
-  - https://github.com/Huerte/algo-solutions-python/issues/300
-- Filiation page: companion document path is stale — `saucisson/layered-data` (0 评论)
-  - https://github.com/saucisson/layered-data/issues/300
-- Desain ekosistem progres persisten & ekonomi Lembah Berdua (Ladang–Kafe–Rumah) — `oskhar/Soforia` (2 评论)
+- Lembah Berdua: dunia persisten dan karakter lintas game — `oskhar/Soforia` (3 评论)
   - https://github.com/oskhar/Soforia/issues/63
 - Roadmap — `bberka/TabLodge` (0 评论)
   - https://github.com/bberka/TabLodge/issues/300
-- "[P3][文档/矛盾] README 称“应用包名尚未变更”，但 applicationId 已统一为 com.nodeman24.nowave" — `BrainEno/flutter-blog` (0 评论)
-  - https://github.com/BrainEno/flutter-blog/issues/300
-- docs(mpp): audit MppError::InvalidCredential's doc comment against every place i — `sorocharge/sorocharge-core` (0 评论)
-  - https://github.com/sorocharge/sorocharge-core/issues/300
 - [TA Feedback][SRS] Justify numerical performance and reliability targets — `SoftwareMandems/FPVR` (0 评论)
   - https://github.com/SoftwareMandems/FPVR/issues/300
-- docs: self-hosting on a single VPS with Docker Compose and Caddy — `Godgift-care/sci-healthcare-backend` (0 评论)
-  - https://github.com/Godgift-care/sci-healthcare-backend/issues/300
 - Add tested Composer task recipes for small Phel programs — `phel-lang/phel-lang.org` (0 评论)
   - https://github.com/phel-lang/phel-lang.org/issues/300
 - research: MCP teaching server that embeds OxDock docs for agents — `jzombie/rust-oxdock` (2 评论)
   - https://github.com/jzombie/rust-oxdock/issues/300
-- The website's front page says what Settee is and how to get it — `neutraltone/settee` (0 评论)
-  - https://github.com/neutraltone/settee/issues/300
 
 ---
 
