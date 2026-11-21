@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-21T12:32:11+00:00
-- 扫描耗时：137.0 秒
-- GitHub 赏金候选：**1** 条
+- 生成时间：2026-11-21T19:45:36+00:00
+- 扫描耗时：127.1 秒
+- GitHub 赏金候选：**0** 条
 - 真实付费赏金池：**46** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -11,14 +11,7 @@
 
 ## 一、高价值赏金候选（按可信度×可行性排序）
 
-### 1. [bounty: implement deterministic LLM behavioral guardrails and policy enforcement engine for automated responses](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：60.0/100 ｜ 仓库：`riteshbonthalakoti/HELPDESK.AI`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★187 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-20T07:11:23Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 27 个真人合并PR，仓库真实运作；1 天内有提交，项目活跃；需求描述详实；属低门槛友好型任务；⏱ 无工时标注，需人工判断是否可自动化
-
+> 本轮未发现符合条件的高价值候选。
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
 > 这批来自实测确认**真实付过款**的仓库（Ubiquity/DevPool 生态）。
