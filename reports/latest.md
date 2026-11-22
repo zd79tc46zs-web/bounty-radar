@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-22T07:24:49+00:00
-- 扫描耗时：137.4 秒
+- 生成时间：2026-11-22T16:13:48+00:00
+- 扫描耗时：127.6 秒
 - GitHub 赏金候选：**0** 条
 - 真实付费赏金池：**46** 条
 - Opire 平台赏金：**3** 条
@@ -143,7 +143,7 @@
   - https://github.com/rodrigompy/bugb/issues/1
 - **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
   - https://github.com/radumarias/rencfs/issues/3
-- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 30 人 ｜ 尝试中 46 人
+- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 30 人 ｜ 尝试中 47 人
   - https://github.com/flowese/UdioWrapper/issues/7
 
 ## 四、需求信号（自建数字产品的选题来源）
