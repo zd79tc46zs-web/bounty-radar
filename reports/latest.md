@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-23T07:24:52+00:00
-- 扫描耗时：130.0 秒
+- 生成时间：2026-11-23T20:07:21+00:00
+- 扫描耗时：136.3 秒
 - GitHub 赏金候选：**0** 条
 - 真实付费赏金池：**46** 条
 - Opire 平台赏金：**3** 条
@@ -143,28 +143,28 @@
   - https://github.com/rodrigompy/bugb/issues/1
 - **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
   - https://github.com/radumarias/rencfs/issues/3
-- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 30 人 ｜ 尝试中 48 人
+- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 32 人 ｜ 尝试中 49 人
   - https://github.com/flowese/UdioWrapper/issues/7
 
 ## 四、需求信号（自建数字产品的选题来源）
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
+- [ README ] create a proper README file — `ctrl-alt-transcend/Smrow-game` (0 评论)
+  - https://github.com/ctrl-alt-transcend/Smrow-game/issues/300
 - work-graph and doctor docs describe copies and patrol behaviour the plugin doesn — `eyelock/assistants` (0 评论)
   - https://github.com/eyelock/assistants/issues/300
 - Refine the product strategy and launch plan before the first release — `syntaxir/syntaxir` (2 评论)
   - https://github.com/syntaxir/syntaxir/issues/309
 - Inbox README: update the routed-source list — `an0n-b1nary/evennia-contribs-staging` (0 评论)
   - https://github.com/an0n-b1nary/evennia-contribs-staging/issues/300
-- [OIT-015][Low] SECURITY.md names a personal Gmail as the vulnerability contact — `amar-python/PostgreDataMigrationAppWithCSVLoader` (1 评论)
-  - https://github.com/amar-python/PostgreDataMigrationAppWithCSVLoader/issues/300
 - 參考 Anthropic document-skills（docx／pptx／xlsx／pdf）：OOXML 驗證器、pptxgenjs 陷阱、結構化簡報 — `PsychQuant/macdoc` (0 评论)
   - https://github.com/PsychQuant/macdoc/issues/300
 - docs: update user guide and skills for konductor metrics after #207 — `aws-solutions/konductor` (0 评论)
   - https://github.com/aws-solutions/konductor/issues/300
 - [Docs] Use the Vault Build Target Shown by the Deployment Artifact — `dev-kiki0/kikis-app` (0 评论)
   - https://github.com/dev-kiki0/kikis-app/issues/300
-- [ux] Plain-language review of the texts in "Mis pagos y recibos" — `Open-Hub-Tec/yucu-protocol` (0 评论)
+- [ux] Plain-language review of the texts in "Mis pagos y recibos" — `Open-Hub-Tec/yucu-protocol` (1 评论)
   - https://github.com/Open-Hub-Tec/yucu-protocol/issues/300
 - Lembah Berdua: dunia persisten dan karakter lintas game — `oskhar/Soforia` (3 评论)
   - https://github.com/oskhar/Soforia/issues/63
