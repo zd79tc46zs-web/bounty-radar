@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-26T00:14:41+00:00
-- 扫描耗时：127.8 秒
+- 生成时间：2026-11-26T08:52:39+00:00
+- 扫描耗时：131.8 秒
 - GitHub 赏金候选：**0** 条
 - 真实付费赏金池：**46** 条
 - Opire 平台赏金：**3** 条
@@ -23,7 +23,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；12 条评论，竞争中等；有 17 个真人合并PR；10 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；12 条评论，竞争中等；有 17 个真人合并PR；11 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6239)
 
@@ -31,7 +31,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 1 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P3. [Multiple Matchmaking Comments](https://github.com/devpool-directory/devpool-directory/issues/6230)
 
@@ -39,7 +39,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 1 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P4. [Keep HTTP diagnostic Boolean parsing consistent for n](https://github.com/devpool-directory/devpool-directory/issues/6215)
 
@@ -47,7 +47,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 1 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P5. [Resolve the selected RPC when each request is made](https://github.com/devpool-directory/devpool-directory/issues/6141)
 
@@ -55,7 +55,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 1 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P6. [Apply the health-check deadline to response decoding](https://github.com/devpool-directory/devpool-directory/issues/6140)
 
@@ -63,7 +63,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 2 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P7. [Dismiss reverted-receipt toasts when the status clears](https://github.com/devpool-directory/devpool-directory/issues/6139)
 
@@ -71,7 +71,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 1 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P8. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6021)
 
@@ -79,7 +79,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 1 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P9. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/devpool-directory/devpool-directory/issues/6019)
 
@@ -87,7 +87,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Priority: 2 (Medium), Price: 75 USD, Time: <1 Hour
-- 判断依据：金额 $75；仅 1 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P10. [Preserve explicit repository choice and title edits in the proposal router](https://github.com/ubiquity/.github/issues/137)
 
@@ -103,7 +103,7 @@
 - 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
-- 判断依据：金额 $300；仅 3 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $300；仅 3 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P12. [Generalized "GitHub Webhook + Contributor Role -> Rewards" With Config v3](https://github.com/devpool-directory/devpool-directory/issues/6246)
 
@@ -111,7 +111,7 @@
 - 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
-- 判断依据：金额 $300；仅 2 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $300；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P13. [Check dev experience on starting an issue](https://github.com/devpool-directory/devpool-directory/issues/6244)
 
@@ -119,7 +119,7 @@
 - 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
-- 判断依据：金额 $300；仅 2 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $300；仅 2 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P14. [CI: fix `check_storage_layout` for new contracts](https://github.com/devpool-directory/devpool-directory/issues/6221)
 
@@ -127,7 +127,7 @@
 - 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
-- 判断依据：金额 $300；仅 1 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $300；仅 1 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P15. [Integrate Wallet Connect via Reown AppKit](https://github.com/devpool-directory/devpool-directory/issues/5874)
 
@@ -135,7 +135,7 @@
 - 自动适配度：**中** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Day, Priority: 1 (Normal), Price: 300 USD
-- 判断依据：金额 $300；仅 3 条评论；近期有 55 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $300；仅 3 条评论；近期有 53 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述过于单薄；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ## 三、Opire 平台赏金
 
