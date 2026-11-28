@@ -1,7 +1,7 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-28T02:38:35+00:00
-- 扫描耗时：121.9 秒
+- 生成时间：2026-11-28T12:54:31+00:00
+- 扫描耗时：129.9 秒
 - GitHub 赏金候选：**2** 条
 - 真实付费赏金池：**46** 条
 - Opire 平台赏金：**3** 条
@@ -38,7 +38,7 @@
 - 自动适配度：**优** ｜ 结算通道：`unknown`
 - 大陆可收款：❓ 需确认
 - 标签：Price: 75 USD, Time: <1 Hour, Priority: 2 (Medium)
-- 判断依据：金额 $75；12 条评论，竞争中等；有 17 个真人合并PR；12 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
+- 判断依据：金额 $75；12 条评论，竞争中等；有 17 个真人合并PR；13 天内有提交，项目活跃；需求描述详实；🤖 标注 60 分钟内可完成，适合挂机
 
 ### P2. [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/devpool-directory/devpool-directory/issues/6239)
 
@@ -158,25 +158,25 @@
   - https://github.com/rodrigompy/bugb/issues/1
 - **research implementation for Windows** — 42.0 USD ｜ `radumarias/rencfs` ｜ 已认领 0 人 ｜ 尝试中 0 人
   - https://github.com/radumarias/rencfs/issues/3
-- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 35 人 ｜ 尝试中 52 人
+- **500 Server Error - Auto Solve hcapcha** — 20.0 USD ｜ `flowese/UdioWrapper` ｜ 已认领 35 人 ｜ 尝试中 53 人
   - https://github.com/flowese/UdioWrapper/issues/7
 
 ## 四、需求信号（自建数字产品的选题来源）
 
 > 这些是不带钱的真实需求。面向大陆个人开发者，**自己做产品 + Creem/Paddle 收款**的路径比抢赏金更可行。
 
-- pushrod: [12.6] Showcase pages for core features: text, layouts, focus, dialogs, — `KenSuenobu/rust-pushrod` (0 评论)
-  - https://github.com/KenSuenobu/rust-pushrod/issues/300
+- Update 'Configure DynamoDB point-in-time recovery and deletion protection using  — `CloudBytes-Academy/CloudBytes.dev` (0 评论)
+  - https://github.com/CloudBytes-Academy/CloudBytes.dev/issues/300
+- Launch plan: get the first outside users — `Stocastico/rullino` (0 评论)
+  - https://github.com/Stocastico/rullino/issues/237
+- chore(launch): execute ChatGPT Plugin submission, Brave Search indexation, Scien — `FALAK097/waitlyze` (0 评论)
+  - https://github.com/FALAK097/waitlyze/issues/300
 - [DOCS] Documentation obsolète de Normalizer.mappings()['marches'] dans docs/{fr, — `delsDin/kadipy` (1 评论)
   - https://github.com/delsDin/kadipy/issues/300
 - [SPRINT 3] Phone notifications — `marcc28/AGRITWIN` (0 评论)
   - https://github.com/marcc28/AGRITWIN/issues/300
 - [Privacy] Add retention purges for non-metrics tables and make PRIVACY.md match  — `Chromeninja/test_squadron_discord_bot` (0 评论)
   - https://github.com/Chromeninja/test_squadron_discord_bot/issues/300
-- Wasm packs, phase 8: the report and the verdict — `noderunner/bingle` (1 评论)
-  - https://github.com/noderunner/bingle/issues/300
-- docs: Rewrite and actualise Readme — `ITMO-NSS-team/PAUK` (0 评论)
-  - https://github.com/ITMO-NSS-team/PAUK/issues/300
 - Repo cleanup T2 · the tracked tree holds the software and its evidence: abstract — `florihu/pySUTO` (1 评论)
   - https://github.com/florihu/pySUTO/issues/300
 - Refine the product strategy and launch plan before the first release — `syntaxir/syntaxir` (2 评论)
