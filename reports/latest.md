@@ -1,8 +1,8 @@
 # 挂机收益雷达 · 扫描报告
 
-- 生成时间：2026-11-27T18:27:28+00:00
-- 扫描耗时：124.3 秒
-- GitHub 赏金候选：**5** 条
+- 生成时间：2026-11-28T02:38:35+00:00
+- 扫描耗时：121.9 秒
+- GitHub 赏金候选：**2** 条
 - 真实付费赏金池：**46** 条
 - Opire 平台赏金：**3** 条
 - 需求信号：**20** 条
@@ -16,40 +16,16 @@
 - **可信度评分**：48.0/100 ｜ 仓库：`hanzoai/bot`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★10 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-27T17:22:29Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 29 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★10 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-27T20:00:07Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 30 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
 ### 2. [[Intern] Channel adapter unit & mock webhook tests (Slack, Discord, Telegram)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
 
 - **可信度评分**：48.0/100 ｜ 仓库：`hanzoai/bot`
 - **结算通道**：`unknown` — 通道未知，需人工确认
 - **大陆可收款**：❓ 需确认
-- 仓库信号：★10 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-27T17:22:29Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 29 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
-
-### 3. [[Intern] Tensor ops & quantization (`Q4_K`/`Q8_0` vs `FP16`) accuracy and perf benchmark](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：48.0/100 ｜ 仓库：`hanzoai/ml`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★11 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-27T13:33:23Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 49 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
-
-### 4. [[Intern] Streaming tool-calling & JSON-schema structured output conformance suite](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：48.0/100 ｜ 仓库：`hanzoai/engine`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★15 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-27T16:52:53Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
-
-### 5. [[Intern] Cross-platform local `zen-nano` inference QA (OpenAI, Anthropic, Embeddings & `/ui`)](https://github.com/Paratii-Video/paratii-mediaplayer/issues/50)
-
-- **可信度评分**：48.0/100 ｜ 仓库：`hanzoai/engine`
-- **结算通道**：`unknown` — 通道未知，需人工确认
-- **大陆可收款**：❓ 需确认
-- 仓库信号：★15 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-27T16:52:53Z
-- 判断依据：未标注金额；零评论，竞品少；近期有 61 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
+- 仓库信号：★10 ｜ 历史结清赏金 None 笔 ｜ 提交于 2026-11-27T20:00:07Z
+- 判断依据：未标注金额；零评论，竞品少；近期有 30 个真人合并PR，仓库真实运作；0 天内有提交，项目活跃；需求描述详实；⏱ 无工时标注，需人工判断是否可自动化
 
 ## 二、真实付费赏金池（★ 最高价值：已验证付款 + 短工时）
 
@@ -134,7 +110,7 @@
 - 自动适配度：**优** ｜ 结算通道：`ubq_crypto`
 - 大陆可收款：⛔ 否
 - 标签：Time: <1 Hour, Priority: 2 (Medium), Price: 75 USD
-- 判断依据：金额 $75；4 条评论，竞争中等；有 17 个真人合并PR；10 天内有提交，项目活跃；需求描述详实；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
+- 判断依据：金额 $75；4 条评论，竞争中等；有 17 个真人合并PR；11 天内有提交，项目活跃；需求描述详实；⛔ 结算通道对大陆个人不可行：ubq_crypto（Ubiquity 用 UBQ 稳定币结算，链上出入金在大陆有合规风险）
 
 ### P11. [New Proposal Router](https://github.com/devpool-directory/devpool-directory/issues/6251)
 
